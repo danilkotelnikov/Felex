@@ -43,24 +43,9 @@ Under the hood: a Rust-based linear programming solver, a database of 2,200+ fee
 
 ## How it works
 
-```
-┌──────────────────────────────────────────────┐
-│              Tauri Desktop Shell              │
-│  ┌────────────────┐  ┌────────────────────┐  │
-│  │  React + Zustand│  │  Rust Axum API     │  │
-│  │  Frontend (UI)  │──│  Server (:7432)    │  │
-│  └────────────────┘  │  ┌──────────────┐  │  │
-│                       │  │ LP Optimizer  │  │  │
-│                       │  │ (good_lp)     │  │  │
-│                       │  ├──────────────┤  │  │
-│                       │  │ SQLite DB     │  │  │
-│                       │  ├──────────────┤  │  │
-│                       │  │ LLM Agent     │  │  │
-│                       │  │ (Ollama)      │  │  │
-│                       │  └──────────────┘  │  │
-│                       └────────────────────┘  │
-└──────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="docs/assets/architecture_en.png" width="700" alt="Felex System Architecture">
+</p>
 
 | Layer | Tech | Where |
 |-------|------|-------|

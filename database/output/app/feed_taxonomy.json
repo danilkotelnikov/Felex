@@ -1,0 +1,130 @@
+{
+  "raw_categories": {
+    "green_feeds": {
+      "id": "green_feeds",
+      "code": "11",
+      "ru": "Зеленые корма",
+      "en": "Green feeds",
+      "has_regions": true
+    },
+    "rough_feeds": {
+      "id": "rough_feeds",
+      "code": "12",
+      "ru": "Грубые корма",
+      "en": "Rough feeds",
+      "has_regions": true
+    },
+    "succulent_feeds": {
+      "id": "succulent_feeds",
+      "code": "13",
+      "ru": "Сочные корма",
+      "en": "Succulent feeds",
+      "has_regions": true
+    },
+    "concentrated_feeds": {
+      "id": "concentrated_feeds",
+      "code": "14",
+      "ru": "Концентрированные корма",
+      "en": "Concentrated feeds",
+      "has_regions": true
+    },
+    "industrial_byproducts": {
+      "id": "industrial_byproducts",
+      "code": "15",
+      "ru": "Отходы промышленности, пищевые",
+      "en": "Industrial and food byproducts",
+      "has_regions": false
+    },
+    "animal_feeds": {
+      "id": "animal_feeds",
+      "code": "16",
+      "ru": "Корма животного и микробного происхождения",
+      "en": "Animal and microbial feeds",
+      "has_regions": false
+    },
+    "nitrogen_compounds": {
+      "id": "nitrogen_compounds",
+      "code": "17",
+      "ru": "Небелковые азотистые соединения",
+      "en": "Non-protein nitrogen compounds",
+      "has_regions": false
+    },
+    "mineral_supplements": {
+      "id": "mineral_supplements",
+      "code": "18",
+      "ru": "Минеральные добавки",
+      "en": "Mineral supplements",
+      "has_regions": false
+    },
+    "mixed_feeds": {
+      "id": "mixed_feeds",
+      "code": "19",
+      "ru": "Комбикорма и заменители молока",
+      "en": "Mixed feeds and milk replacers",
+      "has_regions": false
+    }
+  },
+  "runtime_categories": {
+    "grain": {
+      "ru": "Зерновые",
+      "en": "Grains"
+    },
+    "concentrate": {
+      "ru": "Концентраты",
+      "en": "Concentrates"
+    },
+    "oilseed_meal": {
+      "ru": "Жмыхи и шроты",
+      "en": "Oilseed meals"
+    },
+    "protein": {
+      "ru": "Белковые корма",
+      "en": "Protein feeds"
+    },
+    "roughage": {
+      "ru": "Грубые корма",
+      "en": "Roughage"
+    },
+    "silage": {
+      "ru": "Силос и сенаж",
+      "en": "Silage and haylage"
+    },
+    "succulent": {
+      "ru": "Сочные корма",
+      "en": "Succulent feeds"
+    },
+    "animal_origin": {
+      "ru": "Корма животного происхождения",
+      "en": "Animal-origin feeds"
+    },
+    "mineral": {
+      "ru": "Минеральные добавки",
+      "en": "Mineral supplements"
+    },
+    "premix": {
+      "ru": "Премиксы",
+      "en": "Premixes"
+    },
+    "additive": {
+      "ru": "Кормовые добавки",
+      "en": "Feed additives"
+    },
+    "other": {
+      "ru": "Прочие",
+      "en": "Other"
+    }
+  },
+  "runtime_category_counts": {
+    "animal_origin": 29,
+    "succulent": 521,
+    "roughage": 1283,
+    "silage": 326,
+    "protein": 48,
+    "grain": 243,
+    "concentrate": 123,
+    "oilseed_meal": 16,
+    "mineral": 26,
+    "premix": 104,
+    "additive": 4
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feed_database.schema.json",
+  "title": "Feed Database",
+  "description": "Livestock feed nutritional database schema",
+  "type": "object",
+  "required": ["meta", "feeds"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "units",
+        "nutrients",
+        "animal_types",
+        "categories",
+        "regions",
+        "generated",
+        "source",
+        "version",
+        "total_feeds"
+      ],
+      "properties": {
+        "units": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["name", "type"],
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/translatableText"
+              },
+              "type": {
+                "type": "string"
+              },
+              "conversions": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "nutrients": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["ru", "en", "group", "default_unit"],
+            "properties": {
+              "ru": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              },
+              "group": {
+                "type": "string"
+              },
+              "default_unit": {
+                "type": "string"
+              },
+              "animal_specific": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "animal_types": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/translatableText"
+          }
+        },
+        "categories": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["id", "code", "ru", "en", "has_regions"],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "code": {
+                "type": "string"
+              },
+              "ru": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              },
+              "has_regions": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "regions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["id", "ru", "en"],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "ru": {
+                "type": "string"
+              },
+              "en": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "generated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "total_feeds": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "feeds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/feedItem"
+      }
+    }
+  },
+  "$defs": {
+    "translatableText": {
+      "type": "object",
+      "required": ["ru"],
+      "properties": {
+        "ru": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        }
+      }
+    },
+    "nutrientValue": {
+      "type": "object",
+      "required": ["value", "unit"],
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        }
+      }
+    },
+    "feedItem": {
+      "type": "object",
+      "required": ["id", "name", "category_id", "subcategory", "nutrition", "source_url"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "$ref": "#/$defs/translatableText"
+        },
+        "category_id": {
+          "type": "string"
+        },
+        "subcategory": {
+          "$ref": "#/$defs/translatableText"
+        },
+        "region_id": {
+          "type": ["string", "null"]
+        },
+        "nutrition": {
+          "type": "object",
+          "additionalProperties": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/nutrientValue"
+              },
+              {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/nutrientValue"
+                }
+              }
+            ]
+          }
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "parse_errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["field", "error", "message"],
+            "properties": {
+              "field": {
+                "type": "string"
+              },
+              "error": {
+                "type": "string"
+              },
+              "raw_value": {
+                "type": "string"
+              },
+              "expected_unit": {
+                "type": "string"
+              },
+              "found_unit": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

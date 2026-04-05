@@ -1,0 +1,310 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{float}
+\captionsetup{font=small,labelfont=bf}
+\setstretch{1.15}
+
+\title{Supplementary Material for:\\[0.5em]
+\large Felex: a local livestock ration decision-support platform\\
+for Russian small farms and animal businesses}
+\author{Danil D. Kotelnikov and Olga V. Demkina\\[0.3em]
+\small Far Eastern State Agrarian University, Blagoveshchensk, Russia}
+\date{April 2026}
+
+\begin{document}
+\maketitle
+
+All data in these supplementary materials were programmatically generated from JSON artifacts and CSV tables of computational experiment results. The complete raw dataset is available in the project repository.
+
+\section*{Table S1. Optimization scenario characteristics}
+\begin{longtable}{lllc}
+\caption{Optimization scenario characteristics (scenarios, animal species, number of available feeds).}\label{tab:s1_scenarios} \\
+\toprule
+\textbf{Scenario ID} & \textbf{Species} & \textbf{Description} & \textbf{Feeds Available} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Scenario ID} & \textbf{Species} & \textbf{Description} & \textbf{Feeds Available} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{cattle\_dairy\_fresh} & Cattle & Dairy cows, early lactation & 1162 \\
+\texttt{cattle\_dairy\_early\_lact} & Cattle & Dairy cows, early lactation & 1162 \\
+\texttt{cattle\_dairy\_dry\_early} & Cattle & Dry cows, early period & 1139 \\
+\texttt{cattle\_dairy\_heifer\_12\_18} & Cattle & Heifers 12--18 months & 1162 \\
+\texttt{cattle\_beef\_stocker} & Cattle & Beef cattle, stocker & 1155 \\
+\texttt{cattle\_beef\_finisher} & Cattle & Beef cattle, finisher & 1155 \\
+\texttt{cattle\_beef\_500} & Cattle & Beef cattle, 500 kg & 1155 \\
+\texttt{cattle\_beef\_600} & Cattle & Beef cattle, 600 kg & 1155 \\
+\texttt{cattle\_beef\_700} & Cattle & Beef cattle, 700 kg & 1155 \\
+\texttt{cattle\_beef\_800} & Cattle & Beef cattle, 800 kg & 1155 \\
+\texttt{cattle\_beef\_900} & Cattle & Beef cattle, 900 kg & 1155 \\
+\texttt{cattle\_beef\_1000} & Cattle & Beef cattle, 1000 kg & 1155 \\
+\texttt{cattle\_beef\_1100} & Cattle & Beef cattle, 1100 kg & 1155 \\
+\texttt{cattle\_beef\_1200} & Cattle & Beef cattle, 1200 kg & 1155 \\
+\texttt{swine\_piglet\_nursery} & Swine & Piglets, nursery & 1177 \\
+\texttt{swine\_grower} & Swine & Growing pigs & 1186 \\
+\texttt{swine\_finisher} & Swine & Finishing pigs & 1186 \\
+\texttt{swine\_sow\_gestating} & Swine & Sows, gestating & 1164 \\
+\texttt{swine\_sow\_lactating} & Swine & Sows, lactating & 1164 \\
+\texttt{poultry\_broiler\_starter} & Poultry & Broilers, starter & 1148 \\
+\texttt{poultry\_broiler\_grower} & Poultry & Broilers, grower & 1152 \\
+\texttt{poultry\_broiler\_finisher} & Poultry & Broilers, finisher & 1148 \\
+\texttt{poultry\_layer\_peak} & Poultry & Laying hens, peak production & 1150 \\
+\end{longtable}
+
+\section*{Table S2. Optimization results by scenario}
+\begin{longtable}{lcccccc}
+\caption{Norm coverage and ration cost by scenarios and workflows.}\label{tab:s2_cases} \\
+\toprule
+& \multicolumn{3}{c}{\textbf{Norm Coverage (0--100)}} & \multicolumn{3}{c}{\textbf{Cost (RUB/day)}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Scenario} & \textbf{Auto-build} & \textbf{Complete} & \textbf{Selected} & \textbf{Auto-build} & \textbf{Complete} & \textbf{Selected} \\
+\midrule
+\endfirsthead
+\toprule
+& \multicolumn{3}{c}{\textbf{Norm Coverage (0--100)}} & \multicolumn{3}{c}{\textbf{Cost (RUB/day)}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Scenario} & \textbf{Auto-build} & \textbf{Complete} & \textbf{Selected} & \textbf{Auto-build} & \textbf{Complete} & \textbf{Selected} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{cattle\_dairy\_fresh} & 82.03 & 83.91 & 60.26 & 690.51 & 966.28 & 197.45 \\
+\texttt{cattle\_dairy\_early\_lact} & 81.53 & 83.02 & 67.41 & 641.75 & 897.82 & 329.76 \\
+\texttt{cattle\_dairy\_dry\_early} & 77.00 & 89.44 & 77.64 & 328.33 & 460.36 & 408.38 \\
+\texttt{cattle\_dairy\_heifer\_12\_18} & 98.54 & 99.54 & 85.09 & 129.85 & 249.94 & 287.97 \\
+\texttt{cattle\_beef\_stocker} & 99.16 & 99.70 & 98.75 & 156.72 & 226.42 & 169.45 \\
+\texttt{cattle\_beef\_finisher} & 80.05 & 82.96 & 77.15 & 122.40 & 253.85 & 106.13 \\
+\texttt{cattle\_beef\_500} & 81.45 & 83.14 & 76.51 & 119.07 & 218.11 & 125.37 \\
+\texttt{cattle\_beef\_600} & 82.05 & 82.85 & 74.17 & 138.69 & 237.81 & 93.04 \\
+\texttt{cattle\_beef\_700} & 82.19 & 83.02 & 74.15 & 149.82 & 256.47 & 98.23 \\
+\texttt{cattle\_beef\_800} & 82.52 & 83.43 & 74.37 & 159.16 & 273.07 & 104.65 \\
+\texttt{cattle\_beef\_900} & 82.42 & 83.31 & 74.23 & 168.04 & 287.45 & 110.46 \\
+\texttt{cattle\_beef\_1000} & 82.25 & 83.85 & 76.80 & 165.26 & 308.77 & 177.66 \\
+\texttt{cattle\_beef\_1100} & 82.28 & 83.92 & 76.74 & 171.79 & 322.88 & 185.03 \\
+\texttt{cattle\_beef\_1200} & 83.12 & 84.26 & 76.98 & 196.68 & 334.48 & 212.74 \\
+\texttt{swine\_piglet\_nursery} & 86.81 & 86.63 & 75.50 & 29.48 & 9.15 & 22.33 \\
+\texttt{swine\_grower} & 75.76 & 79.66 & 71.04 & 49.46 & 14.69 & 45.42 \\
+\texttt{swine\_finisher} & 76.85 & 68.90 & 72.63 & 98.42 & 22.48 & 95.76 \\
+\texttt{swine\_sow\_gestating} & 91.96 & 89.39 & 75.05 & 82.71 & 110.22 & 91.00 \\
+\texttt{swine\_sow\_lactating} & 96.92 & 98.79 & 85.83 & 179.40 & 216.00 & 262.50 \\
+\texttt{poultry\_broiler\_starter} & 84.97 & 82.08 & 79.06 & 4.30 & 10.75 & 1.57 \\
+\texttt{poultry\_broiler\_grower} & 70.34 & 82.64 & 80.05 & 4.27 & 10.17 & 2.65 \\
+\texttt{poultry\_broiler\_finisher} & 76.90 & 79.87 & 85.65 & 5.30 & 6.98 & 3.99 \\
+\texttt{poultry\_layer\_peak} & 76.70 & 81.10 & 78.57 & 4.13 & 4.00 & 2.24 \\
+\end{longtable}
+
+\section*{Table S3. Aggregated statistics by workflow}
+\begin{table}[H]
+\centering
+\caption{Aggregated statistics by workflow (averaged values).}\label{tab:s3_wf}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Workflow} & \textbf{Time (ms)} & \textbf{Cost (RUB)} & \textbf{Hard Pass Rate (\%)} & \textbf{Coverage} \\
+\midrule
+\texttt{build\_from\_library} & 617.47 & 165.02 & 66.0 & 83.21 \\
+\texttt{complete\_from\_library} & 121.76 & 247.75 & 78.3 & 85.02 \\
+\texttt{selected\_only} & 0.41 & 136.25 & 50.2 & 77.12 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Table S4. Aggregated statistics by species}
+\begin{table}[H]
+\centering
+\caption{Aggregated statistics by animal species.}\label{tab:s4_sp}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Species} & \textbf{Scenarios} & \textbf{Avg Coverage (Auto)} & \textbf{Avg Coverage (Complete)} & \textbf{Avg Cost (RUB)} \\
+\midrule
+Cattle & 14 & 84.04 & 86.17 & 238.43 \\
+Poultry & 4 & 77.23 & 81.42 & 4.50 \\
+Swine & 5 & 85.66 & 84.67 & 87.89 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Table S5. Cumulative deficiency severity for monogastric animals}
+{\footnotesize
+\begin{longtable}{lcccccccccccc}
+\caption{Cumulative deficiency severity (ratio $|\text{actual} - \text{target}| / \text{target}$) by nutrients for monogastric animals.}\label{tab:s5_heatmap} \\
+\toprule
+\textbf{Scenario} & \textbf{Lys} & \textbf{P} & \textbf{Ca\,\%} & \textbf{Ca} & \textbf{Met+Cys} & \textbf{Cu} & \textbf{Fe} & \textbf{Vit.\,E} & \textbf{Lys\,SID} & \textbf{Lys\,SID\,\%} & \textbf{CP\,\%} & \textbf{Zn} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Scenario} & \textbf{Lys} & \textbf{P} & \textbf{Ca\,\%} & \textbf{Ca} & \textbf{Met+Cys} & \textbf{Cu} & \textbf{Fe} & \textbf{Vit.\,E} & \textbf{Lys\,SID} & \textbf{Lys\,SID\,\%} & \textbf{CP\,\%} & \textbf{Zn} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{swine\_piglet\_nursery} & 1.10 & 0.00 & 0.00 & 2.20 & 0.00 & 0.93 & 0.89 & 0.00 & 0.00 & 0.96 & 0.91 & 0.77 \\
+\texttt{swine\_grower} & 4.56 & 0.00 & 0.00 & 1.78 & 2.14 & 1.19 & 1.10 & 0.00 & 0.00 & 1.53 & 1.21 & 1.03 \\
+\texttt{swine\_finisher} & 10.67 & 1.89 & 0.00 & 3.89 & 5.89 & 1.31 & 1.20 & 0.00 & 2.79 & 0.00 & 0.00 & 0.00 \\
+\texttt{swine\_sow\_gestating} & 0.00 & 1.24 & 0.00 & 1.89 & 0.00 & 0.00 & 0.00 & 0.00 & 0.08 & 0.00 & 0.00 & 0.00 \\
+\texttt{swine\_sow\_lactating} & 0.00 & 0.05 & 0.00 & 0.25 & 0.00 & 0.00 & 0.00 & 0.00 & 0.02 & 0.00 & 0.00 & 0.00 \\
+\texttt{poultry\_broiler\_starter} & 1.89 & 2.15 & 3.09 & 0.00 & 0.00 & 0.00 & 0.00 & 0.72 & 0.00 & 0.00 & 0.00 & 0.00 \\
+\texttt{poultry\_broiler\_grower} & 1.80 & 2.11 & 3.05 & 0.00 & 0.90 & 0.00 & 0.00 & 0.61 & 0.00 & 0.00 & 0.00 & 0.00 \\
+\texttt{poultry\_broiler\_finisher} & 1.05 & 4.01 & 6.01 & 0.00 & 0.76 & 0.00 & 0.00 & 0.78 & 0.00 & 0.00 & 0.00 & 0.00 \\
+\texttt{poultry\_layer\_peak} & 0.00 & 6.60 & 1.73 & 0.00 & 0.00 & 0.00 & 0.00 & 0.87 & 0.00 & 0.00 & 0.00 & 0.27 \\
+\end{longtable}
+}
+
+\section*{Table S6. Key nutrient deficiencies (Top-30 by severity)}
+\begin{longtable}{lllccrr}
+\caption{Top-30 most severe deviations from norms (deficiencies and excesses).}\label{tab:s6_issues} \\
+\toprule
+\textbf{Scenario} & \textbf{Stage} & \textbf{Nutrient} & \textbf{Tier} & \textbf{Severity} & \textbf{Actual} & \textbf{Target} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Scenario} & \textbf{Stage} & \textbf{Nutrient} & \textbf{Tier} & \textbf{Severity} & \textbf{Actual} & \textbf{Target} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{swine\_finisher} & complete & \texttt{lysine} & 2 & 10.67 & 91.02 & 7.80 \\
+\texttt{poultry\_broiler\_grower} & build & \texttt{calcium\_pct} & 2 & 9.47 & 10.47 & 1.00 \\
+\texttt{poultry\_broiler\_finisher} & build & \texttt{calcium\_pct} & 2 & 6.67 & 6.90 & 0.90 \\
+\texttt{poultry\_layer\_peak} & complete & \texttt{phosphorus} & 2 & 6.60 & 45.60 & 6.00 \\
+\texttt{poultry\_layer\_peak} & build & \texttt{phosphorus} & 2 & 6.60 & 45.60 & 6.00 \\
+\texttt{poultry\_broiler\_grower} & build & \texttt{phosphorus} & 2 & 6.04 & 48.55 & 6.90 \\
+\texttt{poultry\_broiler\_finisher} & complete & \texttt{calcium\_pct} & 2 & 6.01 & 6.31 & 0.90 \\
+\texttt{swine\_finisher} & complete & \texttt{met\_cys} & 2 & 5.89 & 31.00 & 4.50 \\
+\texttt{poultry\_broiler\_finisher} & build & \texttt{phosphorus} & 2 & 4.58 & 35.19 & 6.30 \\
+\texttt{swine\_grower} & complete & \texttt{lysine} & 2 & 4.56 & 61.11 & 11.00 \\
+\texttt{cattle\_dairy\_dry\_early} & build & \texttt{calcium} & 2 & 4.38 & 376.30 & 70.00 \\
+\texttt{poultry\_broiler\_finisher} & complete & \texttt{phosphorus} & 2 & 4.01 & 31.56 & 6.30 \\
+\texttt{swine\_finisher} & complete & \texttt{calcium} & 2 & 3.89 & 33.28 & 6.80 \\
+\texttt{cattle\_dairy\_dry\_early} & build & \texttt{phosphorus} & 2 & 3.79 & 239.39 & 50.00 \\
+\texttt{cattle\_beef\_600} & selected & \texttt{iron} & 3 & 3.20 & 4202.17 & 1000.00 \\
+\texttt{cattle\_beef\_900} & selected & \texttt{iron} & 3 & 3.13 & 4988.73 & 1209.00 \\
+\texttt{cattle\_beef\_800} & selected & \texttt{iron} & 3 & 3.12 & 4726.38 & 1148.00 \\
+\texttt{cattle\_beef\_700} & selected & \texttt{iron} & 3 & 3.12 & 4436.35 & 1078.00 \\
+\texttt{cattle\_dairy\_early\_lact} & complete & \texttt{iron} & 3 & 3.11 & 6168.64 & 1500.00 \\
+\texttt{poultry\_broiler\_starter} & complete & \texttt{calcium\_pct} & 2 & 3.09 & 4.50 & 1.10 \\
+\texttt{poultry\_broiler\_grower} & complete & \texttt{calcium\_pct} & 2 & 3.05 & 4.05 & 1.00 \\
+\texttt{cattle\_beef\_finisher} & complete & \texttt{carotene} & 3 & 2.99 & 438.75 & 110.00 \\
+\texttt{cattle\_beef\_600} & selected & \texttt{vit\_e} & 3 & 2.98 & 1431.40 & 360.00 \\
+\texttt{cattle\_beef\_500} & selected & \texttt{iron} & 3 & 2.98 & 3629.81 & 913.00 \\
+\texttt{cattle\_beef\_1100} & selected & \texttt{iron} & 3 & 2.94 & 5174.54 & 1313.00 \\
+\texttt{cattle\_beef\_1000} & selected & \texttt{iron} & 3 & 2.94 & 4968.32 & 1261.00 \\
+\texttt{cattle\_beef\_900} & selected & \texttt{vit\_e} & 3 & 2.91 & 1699.33 & 435.00 \\
+\texttt{cattle\_beef\_800} & selected & \texttt{vit\_e} & 3 & 2.90 & 1609.97 & 413.00 \\
+\texttt{cattle\_beef\_700} & selected & \texttt{vit\_e} & 3 & 2.89 & 1511.17 & 388.00 \\
+\texttt{cattle\_beef\_700} & complete & \texttt{carotene} & 3 & 2.87 & 498.88 & 129.00 \\
+\end{longtable}
+
+\section*{Table S7. Nutrient contour}
+\begin{longtable}{lllc}
+\caption{List of 31 nutrients participating in optimization.}\label{tab:s7_nutrients} \\
+\toprule
+\textbf{DB Key} & \textbf{Name} & \textbf{Category} & \textbf{Unit} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{DB Key} & \textbf{Name} & \textbf{Category} & \textbf{Unit} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{dry\_matter} & Dry matter & General & g/kg \\
+\texttt{energy\_oe\_cattle} & Metabolizable energy (cattle) & Energy & MJ \\
+\texttt{energy\_oe\_pig} & Metabolizable energy (swine) & Energy & MJ \\
+\texttt{energy\_oe\_poultry} & Metabolizable energy (poultry) & Energy & MJ \\
+\texttt{crude\_protein} & Crude protein & Protein & g/kg \\
+\texttt{dig\_protein\_cattle} & Digestible protein (cattle) & Protein & g/kg \\
+\texttt{dig\_protein\_pig} & Digestible protein (swine) & Protein & g/kg \\
+\texttt{dig\_protein\_poultry} & Digestible protein (poultry) & Protein & g/kg \\
+\texttt{lysine} & Lysine & Amino acids & g/kg \\
+\texttt{methionine\_cystine} & Methionine + cystine & Amino acids & g/kg \\
+\texttt{crude\_fat} & Crude fat & Fats & g/kg \\
+\texttt{crude\_fiber} & Crude fiber & Fiber \& carbs & g/kg \\
+\texttt{starch} & Starch & Fiber \& carbs & g/kg \\
+\texttt{sugar} & Sugar & Fiber \& carbs & g/kg \\
+\texttt{calcium} & Calcium & Macroelements & g/kg \\
+\texttt{phosphorus} & Phosphorus & Macroelements & g/kg \\
+\texttt{magnesium} & Magnesium & Macroelements & g/kg \\
+\texttt{potassium} & Potassium & Macroelements & g/kg \\
+\texttt{sodium} & Sodium & Macroelements & g/kg \\
+\texttt{sulfur} & Sulfur & Macroelements & g/kg \\
+\texttt{iron} & Iron & Microelements & mg/kg \\
+\texttt{copper} & Copper & Microelements & mg/kg \\
+\texttt{zinc} & Zinc & Microelements & mg/kg \\
+\texttt{manganese} & Manganese & Microelements & mg/kg \\
+\texttt{cobalt} & Cobalt & Microelements & mg/kg \\
+\texttt{iodine} & Iodine & Microelements & mg/kg \\
+\texttt{carotene} & Carotene & Vitamins & mg/kg \\
+\texttt{vit\_d3} & Vitamin D3 & Vitamins & IU/kg \\
+\texttt{vit\_e} & Vitamin E & Vitamins & mg/kg \\
+\texttt{selenium} & Selenium & Microelements & mg/kg \\
+\texttt{ca\_p\_ratio} & Ca:P ratio & Ratios & unit \\
+\end{longtable}
+
+\section*{Table S8. Feed structural matrix}
+\begin{table}[H]
+\centering
+\caption{Feed matrix constraints (dry matter share, \%).}\label{tab:s8_matrix}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Archetype} & \textbf{Category} & \textbf{Min (\%)} & \textbf{Opt (\%)} & \textbf{Max (\%)} \\
+\midrule
+Cattle (dairy) & Roughage & 35 & 45 & 65 \\
+& Concentrates & 30 & 40 & 60 \\
+& Succulent & 5 & 15 & 35 \\
+& Mineral & 0.5 & 1.5 & 3 \\
+Swine (finishing) & Roughage & 0 & 0 & 5 \\
+& Concentrates & 90 & 95 & 100 \\
+& Mineral & 0.5 & 2 & 3 \\
+Poultry (broiler) & Concentrates & 95 & 98 & 100 \\
+& Mineral & 1 & 2 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Table S9. Normalized feed base composition}
+\begin{table}[H]
+\centering
+\caption{Normalized feed base composition by top-level categories.}\label{tab:s9_db}
+\begin{tabular}{lc}
+\toprule
+\textbf{Category} & \textbf{Item Count} \\
+\midrule
+Rough feeds (\texttt{rough\_feeds}) & 1283 \\
+Succulent feeds (\texttt{succulent\_feeds}) & 436 \\
+Green feeds (\texttt{green\_feeds}) & 411 \\
+Concentrated feeds (\texttt{concentrated\_feeds}) & 301 \\
+Mixed and recipe feeds (\texttt{mixed\_feeds}) & 205 \\
+Animal-origin feeds (\texttt{animal\_feeds}) & 29 \\
+Industrial byproducts (\texttt{industrial\_byproducts}) & 28 \\
+Mineral supplements (\texttt{mineral\_supplements}) & 26 \\
+Nitrogen compounds (\texttt{nitrogen\_compounds}) & 4 \\
+\midrule
+\textbf{Total in normalized export} & \textbf{2723} \\
+\textbf{Benchmark-ready catalog used in experiment} & \textbf{1342} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,682 @@
+{
+  "category_id": "mineral_supplements",
+  "count": 26,
+  "feeds": [
+    {
+      "id": "n2568",
+      "name": {
+        "ru": "Мел кормовой",
+        "en": "Мел кормовой"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 370.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 3.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2568.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2569",
+      "name": {
+        "ru": "Известняки",
+        "en": "Известняки"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 326.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 28.0,
+          "unit": "g"
+        },
+        "sulfur": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 5.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2569.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2570",
+      "name": {
+        "ru": "Травертин",
+        "en": "Травертин"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 385.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 60.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2570.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2571",
+      "name": {
+        "ru": "Сапропель",
+        "en": "Сапропель"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 16.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 25.6,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 59.7,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 910.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 12.8,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 6.33,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2571.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2572",
+      "name": {
+        "ru": "Древесная зола (березовая)",
+        "en": "Древесная зола (березовая)"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 334.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 72.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 22.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 71.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 94.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 800.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 4.0,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 5.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 470.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 3.6,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.5,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2572.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2573",
+      "name": {
+        "ru": "Ракушка",
+        "en": "Ракушка"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Кальциевые подкормки",
+        "en": "Кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 330.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2573.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2575",
+      "name": {
+        "ru": "Дикальцийфосфат (кормовой преципитат)",
+        "en": "Дикальцийфосфат (кормовой преципитат)"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 260.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 190.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2575.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2576",
+      "name": {
+        "ru": "Фосфат обесфторенный",
+        "en": "Фосфат обесфторенный"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 340.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 160.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2576.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2574",
+      "name": {
+        "ru": "Монокальций фосфат",
+        "en": "Монокальций фосфат"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 174.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 230.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2574.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2577",
+      "name": {
+        "ru": "Мононатрийфосфат",
+        "en": "Мононатрийфосфат"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "phosphorus": {
+          "value": 240.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 110.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2577.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2578",
+      "name": {
+        "ru": "Динатрийфосфат",
+        "en": "Динатрийфосфат"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "phosphorus": {
+          "value": 86.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 133.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2578.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2579",
+      "name": {
+        "ru": "Диаммонийфосфат",
+        "en": "Диаммонийфосфат"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "phosphorus": {
+          "value": 230.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2579.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2580",
+      "name": {
+        "ru": "Моноаммонийфосфат",
+        "en": "Моноаммонийфосфат"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Фосфорно-кальциевые подкормки",
+        "en": "Фосфорно-кальциевые подкормки"
+      },
+      "nutrition": {
+        "phosphorus": {
+          "value": 270.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2580.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2581",
+      "name": {
+        "ru": "Железный купорос",
+        "en": "Железный купорос"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "sulfur": {
+          "value": 110.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 200.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2581.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2582",
+      "name": {
+        "ru": "Сернокислая медь",
+        "en": "Сернокислая медь"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "sulfur": {
+          "value": 120.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 250.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2582.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2584",
+      "name": {
+        "ru": "Сернокислый цинк",
+        "en": "Сернокислый цинк"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "zinc": {
+          "value": 220.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2584.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2583",
+      "name": {
+        "ru": "Углекислая медь",
+        "en": "Углекислая медь"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "copper": {
+          "value": 300.0,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 220.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2583.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2585",
+      "name": {
+        "ru": "Сернокислый марганец",
+        "en": "Сернокислый марганец"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "sulfur": {
+          "value": 134.0,
+          "unit": "g"
+        },
+        "manganese": {
+          "value": 230.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2585.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2586",
+      "name": {
+        "ru": "Углекислый марганец",
+        "en": "Углекислый марганец"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "manganese": {
+          "value": 228.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2586.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2587",
+      "name": {
+        "ru": "Хлористый кобальт",
+        "en": "Хлористый кобальт"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Микроэлементы",
+        "en": "Микроэлементы"
+      },
+      "nutrition": {
+        "cobalt": {
+          "value": 240.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2587.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2588",
+      "name": {
+        "ru": "Поваренная соль",
+        "en": "Поваренная соль"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "sodium": {
+          "value": 300.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2588.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2589",
+      "name": {
+        "ru": "Йодистый калий",
+        "en": "Йодистый калий"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "potassium": {
+          "value": 240.0,
+          "unit": "g"
+        },
+        "iodine": {
+          "value": 760.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2589.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2590",
+      "name": {
+        "ru": "Окись магния",
+        "en": "Окись магния"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 1.5,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 600.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 32.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 0.2,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2590.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2592",
+      "name": {
+        "ru": "Костная мука",
+        "en": "Костная мука"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 300.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 160.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2592.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2591",
+      "name": {
+        "ru": "Углекислый магний",
+        "en": "Углекислый магний"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "magnesium": {
+          "value": 240.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2591.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2593",
+      "name": {
+        "ru": "Костная зола",
+        "en": "Костная зола"
+      },
+      "category_id": "mineral_supplements",
+      "subcategory": {
+        "ru": "Другие соли",
+        "en": "Другие соли"
+      },
+      "nutrition": {
+        "calcium": {
+          "value": 350.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 160.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2593.html",
+      "parse_errors": []
+    }
+  ]
+}

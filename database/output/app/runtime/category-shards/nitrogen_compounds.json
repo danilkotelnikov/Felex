@@ -1,0 +1,46 @@
+[
+  {
+    "id": 248014837,
+    "source_id": "seed:normalized-db:n2594",
+    "name_ru": "Карбамид (мочевина)",
+    "category": "additive",
+    "subcategory": "Карбамид",
+    "source_category_id": "nitrogen_compounds",
+    "verified": true,
+    "source_kind": "normalized",
+    "translation_status": "source_only"
+  },
+  {
+    "id": 1316466235,
+    "source_id": "seed:normalized-db:n2595",
+    "name_ru": "Бикарбонат аммония",
+    "category": "additive",
+    "subcategory": "Аммонийные соли",
+    "source_category_id": "nitrogen_compounds",
+    "verified": true,
+    "source_kind": "normalized",
+    "translation_status": "source_only"
+  },
+  {
+    "id": 1135526750,
+    "source_id": "seed:normalized-db:n2596",
+    "name_ru": "Аммиачная вода",
+    "category": "additive",
+    "subcategory": "Аммонийные соли",
+    "source_category_id": "nitrogen_compounds",
+    "verified": true,
+    "source_kind": "normalized",
+    "translation_status": "source_only"
+  },
+  {
+    "id": 1078784204,
+    "source_id": "seed:normalized-db:n2597",
+    "name_ru": "Сульфат аммония",
+    "category": "additive",
+    "subcategory": "Аммонийные соли",
+    "source_category_id": "nitrogen_compounds",
+    "verified": true,
+    "source_kind": "normalized",
+    "translation_status": "source_only"
+  }
+]

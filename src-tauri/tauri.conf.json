@@ -1,0 +1,70 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Felex",
+  "version": "1.1.0",
+  "identifier": "com.felex.feedcalc",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Felex",
+        "width": 1400,
+        "height": 900,
+        "visible": false,
+        "minWidth": 1024,
+        "minHeight": 768,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true,
+        "transparent": false,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["msi", "nsis"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": "",
+      "wix": {
+        "language": ["en-US", "ru-RU"],
+        "template": null,
+        "bannerPath": null,
+        "dialogImagePath": null
+      },
+      "nsis": {
+        "template": null,
+        "headerImage": null,
+        "sidebarImage": null,
+        "installerIcon": null,
+        "installMode": "currentUser",
+        "languages": ["English", "Russian"],
+        "displayLanguageSelector": true
+      }
+    },
+    "category": "Productivity",
+    "shortDescription": "Animal feed ration calculator with AI assistant",
+    "longDescription": "Felex is a professional tool for formulating and optimizing animal feed rations. Features include nutrient calculation, cost optimization, AI-powered recommendations, and support for cattle, swine, and poultry.",
+    "publisher": "Felex",
+    "copyright": "Copyright 2026 Felex",
+    "licenseFile": null,
+    "externalBin": []
+  }
+}

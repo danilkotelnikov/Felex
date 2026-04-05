@@ -1,0 +1,5 @@
+Local ration decision-support system for Russian small farms
+Three optimization workflows benchmarked across 23 livestock scenarios
+Expert-defined ration skeletons improved mean norm coverage to 85.0
+Mean optimization runtime was 246.6 ms across all workflows
+Local language model agents were inadequate for dependable consultation

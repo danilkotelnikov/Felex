@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+target/
+tmp-cargo-target/
+release-artifacts/
+
+# Rust
+**/*.rs.bk
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+.pytest_cache/
+
+# Database files (generated at runtime)
+*.db
+!database/output/**
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Cargo local config
+.cargo/
+
+# Tauri build cache
+src-tauri/target/
+
+# Claude Code internals
+.claude/felex.db
+.claude/settings.local.json
+.claude-memory-backups/
+.claude-memory.json
+
+# Obsidian workspace
+.obsidian/
+
+# Temporary files
+.tmp-mplconfig/
+.tmp_mplconfig/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# MCP config (local)
+.mcp.json
+
+# Java artifacts
+*.jar
+
+# Misc generated / one-off scripts
+.geminiignore
+install_miktex.py
+
+# Root-level stray files
+/nul
+/icon.png
+
+# Codex handoff (stale)
+.codex/

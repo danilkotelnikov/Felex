@@ -1,0 +1,49 @@
+{
+  "generated_from": "database/output source family",
+  "consolidated_file": "database\\output\\feeds_database.json",
+  "category_files": {
+    "animal_feeds.json": {
+      "category_id": "animal_feeds",
+      "count": 29
+    },
+    "green_feeds.json": {
+      "category_id": "green_feeds",
+      "count": 411
+    },
+    "rough_feeds.json": {
+      "category_id": "rough_feeds",
+      "count": 1283
+    },
+    "succulent_feeds.json": {
+      "category_id": "succulent_feeds",
+      "count": 436
+    },
+    "concentrated_feeds.json": {
+      "category_id": "concentrated_feeds",
+      "count": 301
+    },
+    "industrial_byproducts.json": {
+      "category_id": "industrial_byproducts",
+      "count": 28
+    },
+    "mineral_supplements.json": {
+      "category_id": "mineral_supplements",
+      "count": 26
+    },
+    "mixed_feeds.json": {
+      "category_id": "mixed_feeds",
+      "count": 205
+    },
+    "nitrogen_compounds.json": {
+      "category_id": "nitrogen_compounds",
+      "count": 4
+    }
+  },
+  "feed_count": 2723,
+  "meta_summary": {
+    "nutrients": 26,
+    "units": 9,
+    "categories": 9,
+    "regions": 11
+  }
+}

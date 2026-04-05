@@ -1,0 +1,313 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}
+\newfontfamily\cyrillicfontsf{Arial}
+\newfontfamily\cyrillicfonttt{Courier New}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{float}
+\captionsetup{font=small,labelfont=bf}
+\setstretch{1.15}
+
+\title{Дополнительные материалы к статье: Felex}
+\author{Д. Д. Котельников и О. В. Демкина}
+\date{Март 2026}
+
+\begin{document}
+\selectlanguage{russian}
+\maketitle
+
+Все данные в настоящих дополнительных материалах сгенерированы программно на основе JSON-артефактов и CSV-таблиц результатов вычислительного эксперимента. Полный набор исходных данных доступен в репозитории проекта.
+
+\section*{Таблица S1. Характеристика сценариев оптимизации}
+\begin{longtable}{lllc}
+\caption{Характеристика сценариев оптимизации (сценарии, вид животного, количество доступных кормов).}\label{tab:s1_scenarios} \\
+\toprule
+\textbf{ID сценария} & \textbf{Вид} & \textbf{Описание} & \textbf{Доступно кормов} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{ID сценария} & \textbf{Вид} & \textbf{Описание} & \textbf{Доступно кормов} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{cattle\_dairy\_fresh} & КРС & Дойные коровы, начало лактации & 1162 \\
+\texttt{cattle\_dairy\_early\_lact} & КРС & Дойные коровы, ранняя лактация & 1162 \\
+\texttt{cattle\_dairy\_dry\_early} & КРС & Сухостойные коровы, ранний период & 1139 \\
+\texttt{cattle\_dairy\_heifer\_12\_18} & КРС & Тёлки 12--18 мес. & 1162 \\
+\texttt{cattle\_beef\_stocker} & КРС & КРС на доращивании & 1155 \\
+\texttt{cattle\_beef\_finisher} & КРС & КРС на откорме (финишер) & 1155 \\
+\texttt{cattle\_beef\_500} & КРС & КРС мясной, 500 кг & 1155 \\
+\texttt{cattle\_beef\_600} & КРС & КРС мясной, 600 кг & 1155 \\
+\texttt{cattle\_beef\_700} & КРС & КРС мясной, 700 кг & 1155 \\
+\texttt{cattle\_beef\_800} & КРС & КРС мясной, 800 кг & 1155 \\
+\texttt{cattle\_beef\_900} & КРС & КРС мясной, 900 кг & 1155 \\
+\texttt{cattle\_beef\_1000} & КРС & КРС мясной, 1000 кг & 1155 \\
+\texttt{cattle\_beef\_1100} & КРС & КРС мясной, 1100 кг & 1155 \\
+\texttt{cattle\_beef\_1200} & КРС & КРС мясной, 1200 кг & 1155 \\
+\texttt{swine\_piglet\_nursery} & Свиньи & Поросята-отъёмыши & 1177 \\
+\texttt{swine\_grower} & Свиньи & Свиньи на доращивании & 1186 \\
+\texttt{swine\_finisher} & Свиньи & Свиньи на откорме & 1186 \\
+\texttt{swine\_sow\_gestating} & Свиньи & Свиноматки, супоросность & 1164 \\
+\texttt{swine\_sow\_lactating} & Свиньи & Свиноматки, лактация & 1164 \\
+\texttt{poultry\_broiler\_starter} & Птица & Бройлеры, стартер & 1148 \\
+\texttt{poultry\_broiler\_grower} & Птица & Бройлеры, гроувер & 1152 \\
+\texttt{poultry\_broiler\_finisher} & Птица & Бройлеры, финишер & 1148 \\
+\texttt{poultry\_layer\_peak} & Птица & Куры-несушки, пик яйцекладки & 1150 \\
+\end{longtable}
+
+\section*{Таблица S2. Результаты оптимизации по сценариям}
+\begin{longtable}{lcccccc}
+\caption{Покрытие норм и стоимость рациона по сценариям и рабочим процессам.}\label{tab:s2_cases} \\
+\toprule
+& \multicolumn{3}{c}{\textbf{Покрытие норм (0--100)}} & \multicolumn{3}{c}{\textbf{Стоимость (руб./сут.)}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Сценарий} & \textbf{Автосб.} & \textbf{Дополн.} & \textbf{Огранич.} & \textbf{Автосб.} & \textbf{Дополн.} & \textbf{Огранич.} \\
+\midrule
+\endfirsthead
+\toprule
+& \multicolumn{3}{c}{\textbf{Покрытие норм (0--100)}} & \multicolumn{3}{c}{\textbf{Стоимость (руб./сут.)}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Сценарий} & \textbf{Автосб.} & \textbf{Дополн.} & \textbf{Огранич.} & \textbf{Автосб.} & \textbf{Дополн.} & \textbf{Огранич.} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{cattle\_dairy\_fresh} & 82{,}03 & 83{,}91 & 60{,}26 & 690{,}51 & 966{,}28 & 197{,}45 \\
+\texttt{cattle\_dairy\_early\_lact} & 81{,}53 & 83{,}02 & 67{,}41 & 641{,}75 & 897{,}82 & 329{,}76 \\
+\texttt{cattle\_dairy\_dry\_early} & 77{,}00 & 89{,}44 & 77{,}64 & 328{,}33 & 460{,}36 & 408{,}38 \\
+\texttt{cattle\_dairy\_heifer\_12\_18} & 98{,}54 & 99{,}54 & 85{,}09 & 129{,}85 & 249{,}94 & 287{,}97 \\
+\texttt{cattle\_beef\_stocker} & 99{,}16 & 99{,}70 & 98{,}75 & 156{,}72 & 226{,}42 & 169{,}45 \\
+\texttt{cattle\_beef\_finisher} & 80{,}05 & 82{,}96 & 77{,}15 & 122{,}40 & 253{,}85 & 106{,}13 \\
+\texttt{cattle\_beef\_500} & 81{,}45 & 83{,}14 & 76{,}51 & 119{,}07 & 218{,}11 & 125{,}37 \\
+\texttt{cattle\_beef\_600} & 82{,}05 & 82{,}85 & 74{,}17 & 138{,}69 & 237{,}81 & 93{,}04 \\
+\texttt{cattle\_beef\_700} & 82{,}19 & 83{,}02 & 74{,}15 & 149{,}82 & 256{,}47 & 98{,}23 \\
+\texttt{cattle\_beef\_800} & 82{,}52 & 83{,}43 & 74{,}37 & 159{,}16 & 273{,}07 & 104{,}65 \\
+\texttt{cattle\_beef\_900} & 82{,}42 & 83{,}31 & 74{,}23 & 168{,}04 & 287{,}45 & 110{,}46 \\
+\texttt{cattle\_beef\_1000} & 82{,}25 & 83{,}85 & 76{,}80 & 165{,}26 & 308{,}77 & 177{,}66 \\
+\texttt{cattle\_beef\_1100} & 82{,}28 & 83{,}92 & 76{,}74 & 171{,}79 & 322{,}88 & 185{,}03 \\
+\texttt{cattle\_beef\_1200} & 83{,}12 & 84{,}26 & 76{,}98 & 196{,}68 & 334{,}48 & 212{,}74 \\
+\texttt{swine\_piglet\_nursery} & 86{,}81 & 86{,}63 & 75{,}50 & 29{,}48 & 9{,}15 & 22{,}33 \\
+\texttt{swine\_grower} & 75{,}76 & 79{,}66 & 71{,}04 & 49{,}46 & 14{,}69 & 45{,}42 \\
+\texttt{swine\_finisher} & 76{,}85 & 68{,}90 & 72{,}63 & 98{,}42 & 22{,}48 & 95{,}76 \\
+\texttt{swine\_sow\_gestating} & 91{,}96 & 89{,}39 & 75{,}05 & 82{,}71 & 110{,}22 & 91{,}00 \\
+\texttt{swine\_sow\_lactating} & 96{,}92 & 98{,}79 & 85{,}83 & 179{,}40 & 216{,}00 & 262{,}50 \\
+\texttt{poultry\_broiler\_starter} & 84{,}97 & 82{,}08 & 79{,}06 & 4{,}30 & 10{,}75 & 1{,}57 \\
+\texttt{poultry\_broiler\_grower} & 70{,}34 & 82{,}64 & 80{,}05 & 4{,}27 & 10{,}17 & 2{,}65 \\
+\texttt{poultry\_broiler\_finisher} & 76{,}90 & 79{,}87 & 85{,}65 & 5{,}30 & 6{,}98 & 3{,}99 \\
+\texttt{poultry\_layer\_peak} & 76{,}70 & 81{,}10 & 78{,}57 & 4{,}13 & 4{,}00 & 2{,}24 \\
+\end{longtable}
+
+\section*{Таблица S3. Агрегированная статистика по рабочим процессам}
+\begin{table}[H]
+\centering
+\caption{Агрегированная статистика по рабочим процессам (усредненные значения).}\label{tab:s3_wf}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Рабочий процесс} & \textbf{Время (мс)} & \textbf{Стоимость (руб.)} & \textbf{Доля прохожд. жёстк. (\%)} & \textbf{Покрытие} \\
+\midrule
+\texttt{build\_from\_library} & 617{,}47 & 165{,}02 & 66{,}0 & 83{,}21 \\
+\texttt{complete\_from\_library} & 121{,}76 & 247{,}75 & 78{,}3 & 85{,}02 \\
+\texttt{selected\_only} & 0{,}41 & 136{,}25 & 50{,}2 & 77{,}12 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Таблица S4. Агрегированная статистика по видам}
+\begin{table}[H]
+\centering
+\caption{Агрегированная статистика по видам животных.}\label{tab:s4_sp}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Вид} & \textbf{Сценариев} & \textbf{Ср. покрытие (автосб.)} & \textbf{Ср. покрытие (дополн.)} & \textbf{Ср. стоимость (руб.)} \\
+\midrule
+КРС & 14 & 84{,}04 & 86{,}17 & 238{,}43 \\
+Птица & 4 & 77{,}23 & 81{,}42 & 4{,}50 \\
+Свиньи & 5 & 85{,}66 & 84{,}67 & 87{,}89 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Таблица S5. Кумулятивная выраженность дефицитов для моногастричных животных}
+{\footnotesize
+\begin{longtable}{lcccccccccccc}
+\caption{Кумулятивная выраженность дефицитов (отношение $|\text{факт} - \text{норма}| / \text{норма}$) по нутриентам для моногастричных животных.}\label{tab:s5_heatmap} \\
+\toprule
+\textbf{Сценарий} & \textbf{Лизин} & \textbf{P} & \textbf{Ca\,\%} & \textbf{Ca} & \textbf{Мет+Цис} & \textbf{Cu} & \textbf{Fe} & \textbf{Вит.\,E} & \textbf{Лиз.\,SID} & \textbf{Лиз.\,SID\,\%} & \textbf{СП\,\%} & \textbf{Zn} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Сценарий} & \textbf{Лизин} & \textbf{P} & \textbf{Ca\,\%} & \textbf{Ca} & \textbf{Мет+Цис} & \textbf{Cu} & \textbf{Fe} & \textbf{Вит.\,E} & \textbf{Лиз.\,SID} & \textbf{Лиз.\,SID\,\%} & \textbf{СП\,\%} & \textbf{Zn} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{swine\_piglet\_nursery} & 1{,}10 & 0{,}00 & 0{,}00 & 2{,}20 & 0{,}00 & 0{,}93 & 0{,}89 & 0{,}00 & 0{,}00 & 0{,}96 & 0{,}91 & 0{,}77 \\
+\texttt{swine\_grower} & 4{,}56 & 0{,}00 & 0{,}00 & 1{,}78 & 2{,}14 & 1{,}19 & 1{,}10 & 0{,}00 & 0{,}00 & 1{,}53 & 1{,}21 & 1{,}03 \\
+\texttt{swine\_finisher} & 10{,}67 & 1{,}89 & 0{,}00 & 3{,}89 & 5{,}89 & 1{,}31 & 1{,}20 & 0{,}00 & 2{,}79 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{swine\_sow\_gestating} & 0{,}00 & 1{,}24 & 0{,}00 & 1{,}89 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}08 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{swine\_sow\_lactating} & 0{,}00 & 0{,}05 & 0{,}00 & 0{,}25 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}02 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{poultry\_broiler\_starter} & 1{,}89 & 2{,}15 & 3{,}09 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}72 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{poultry\_broiler\_grower} & 1{,}80 & 2{,}11 & 3{,}05 & 0{,}00 & 0{,}90 & 0{,}00 & 0{,}00 & 0{,}61 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{poultry\_broiler\_finisher} & 1{,}05 & 4{,}01 & 6{,}01 & 0{,}00 & 0{,}76 & 0{,}00 & 0{,}00 & 0{,}78 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 \\
+\texttt{poultry\_layer\_peak} & 0{,}00 & 6{,}60 & 1{,}73 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}87 & 0{,}00 & 0{,}00 & 0{,}00 & 0{,}27 \\
+\end{longtable}
+}
+
+\section*{Таблица S6. Основные дефициты нутриентов (Топ-30 по выраженности)}
+\begin{longtable}{lllccrr}
+\caption{Топ-30 наиболее выраженных отклонений от нормы (дефициты и избытки).}\label{tab:s6_issues} \\
+\toprule
+\textbf{Сценарий} & \textbf{Этап} & \textbf{Нутриент} & \textbf{Ур.} & \textbf{Выраженность} & \textbf{Факт} & \textbf{Норма} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Сценарий} & \textbf{Этап} & \textbf{Нутриент} & \textbf{Ур.} & \textbf{Выраженность} & \textbf{Факт} & \textbf{Норма} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{swine\_finisher} & complete & \texttt{lysine} & 2 & 10{,}67 & 91{,}02 & 7{,}80 \\
+\texttt{poultry\_broiler\_grower} & build & \texttt{calcium\_pct} & 2 & 9{,}47 & 10{,}47 & 1{,}00 \\
+\texttt{poultry\_broiler\_finisher} & build & \texttt{calcium\_pct} & 2 & 6{,}67 & 6{,}90 & 0{,}90 \\
+\texttt{poultry\_layer\_peak} & complete & \texttt{phosphorus} & 2 & 6{,}60 & 45{,}60 & 6{,}00 \\
+\texttt{poultry\_layer\_peak} & build & \texttt{phosphorus} & 2 & 6{,}60 & 45{,}60 & 6{,}00 \\
+\texttt{poultry\_broiler\_grower} & build & \texttt{phosphorus} & 2 & 6{,}04 & 48{,}55 & 6{,}90 \\
+\texttt{poultry\_broiler\_finisher} & complete & \texttt{calcium\_pct} & 2 & 6{,}01 & 6{,}31 & 0{,}90 \\
+\texttt{swine\_finisher} & complete & \texttt{met\_cys} & 2 & 5{,}89 & 31{,}00 & 4{,}50 \\
+\texttt{poultry\_broiler\_finisher} & build & \texttt{phosphorus} & 2 & 4{,}58 & 35{,}19 & 6{,}30 \\
+\texttt{swine\_grower} & complete & \texttt{lysine} & 2 & 4{,}56 & 61{,}11 & 11{,}00 \\
+\texttt{cattle\_dairy\_dry\_early} & build & \texttt{calcium} & 2 & 4{,}38 & 376{,}30 & 70{,}00 \\
+\texttt{poultry\_broiler\_finisher} & complete & \texttt{phosphorus} & 2 & 4{,}01 & 31{,}56 & 6{,}30 \\
+\texttt{swine\_finisher} & complete & \texttt{calcium} & 2 & 3{,}89 & 33{,}28 & 6{,}80 \\
+\texttt{cattle\_dairy\_dry\_early} & build & \texttt{phosphorus} & 2 & 3{,}79 & 239{,}39 & 50{,}00 \\
+\texttt{cattle\_beef\_600} & selected & \texttt{iron} & 3 & 3{,}20 & 4202{,}17 & 1000{,}00 \\
+\texttt{cattle\_beef\_900} & selected & \texttt{iron} & 3 & 3{,}13 & 4988{,}73 & 1209{,}00 \\
+\texttt{cattle\_beef\_800} & selected & \texttt{iron} & 3 & 3{,}12 & 4726{,}38 & 1148{,}00 \\
+\texttt{cattle\_beef\_700} & selected & \texttt{iron} & 3 & 3{,}12 & 4436{,}35 & 1078{,}00 \\
+\texttt{cattle\_dairy\_early\_lact} & complete & \texttt{iron} & 3 & 3{,}11 & 6168{,}64 & 1500{,}00 \\
+\texttt{poultry\_broiler\_starter} & complete & \texttt{calcium\_pct} & 2 & 3{,}09 & 4{,}50 & 1{,}10 \\
+\texttt{poultry\_broiler\_grower} & complete & \texttt{calcium\_pct} & 2 & 3{,}05 & 4{,}05 & 1{,}00 \\
+\texttt{cattle\_beef\_finisher} & complete & \texttt{carotene} & 3 & 2{,}99 & 438{,}75 & 110{,}00 \\
+\texttt{cattle\_beef\_600} & selected & \texttt{vit\_e} & 3 & 2{,}98 & 1431{,}40 & 360{,}00 \\
+\texttt{cattle\_beef\_500} & selected & \texttt{iron} & 3 & 2{,}98 & 3629{,}81 & 913{,}00 \\
+\texttt{cattle\_beef\_1100} & selected & \texttt{iron} & 3 & 2{,}94 & 5174{,}54 & 1313{,}00 \\
+\texttt{cattle\_beef\_1000} & selected & \texttt{iron} & 3 & 2{,}94 & 4968{,}32 & 1261{,}00 \\
+\texttt{cattle\_beef\_900} & selected & \texttt{vit\_e} & 3 & 2{,}91 & 1699{,}33 & 435{,}00 \\
+\texttt{cattle\_beef\_800} & selected & \texttt{vit\_e} & 3 & 2{,}90 & 1609{,}97 & 413{,}00 \\
+\texttt{cattle\_beef\_700} & selected & \texttt{vit\_e} & 3 & 2{,}89 & 1511{,}17 & 388{,}00 \\
+\texttt{cattle\_beef\_700} & complete & \texttt{carotene} & 3 & 2{,}87 & 498{,}88 & 129{,}00 \\
+\end{longtable}
+
+\section*{Таблица S7. Контур нутриентов}
+\begin{longtable}{lllc}
+\caption{Перечень 31 нутриента, участвующего в оптимизации.}\label{tab:s7_nutrients} \\
+\toprule
+\textbf{Ключ в БД} & \textbf{Наименование} & \textbf{Категория} & \textbf{Ед. изм.} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ключ в БД} & \textbf{Наименование} & \textbf{Категория} & \textbf{Ед. изм.} \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+\bottomrule
+\endlastfoot
+\texttt{dry\_matter} & Сухое вещество & Общие & г/кг \\
+\texttt{energy\_oe\_cattle} & Обменная энергия (КРС) & Энергия & МДж \\
+\texttt{energy\_oe\_pig} & Обменная энергия (свиньи) & Энергия & МДж \\
+\texttt{energy\_oe\_poultry} & Обменная энергия (птица) & Энергия & МДж \\
+\texttt{crude\_protein} & Сырой протеин & Протеин & г/кг \\
+\texttt{dig\_protein\_cattle} & Переваримый протеин (КРС) & Протеин & г/кг \\
+\texttt{dig\_protein\_pig} & Переваримый протеин (свиньи) & Протеин & г/кг \\
+\texttt{dig\_protein\_poultry} & Переваримый протеин (птица) & Протеин & г/кг \\
+\texttt{lysine} & Лизин & Аминокислоты & г/кг \\
+\texttt{methionine\_cystine} & Метионин + цистин & Аминокислоты & г/кг \\
+\texttt{crude\_fat} & Сырой жир & Жиры & г/кг \\
+\texttt{crude\_fiber} & Сырая клетчатка & Клетчатка и углеводы & г/кг \\
+\texttt{starch} & Крахмал & Клетчатка и углеводы & г/кг \\
+\texttt{sugar} & Сахар & Клетчатка и углеводы & г/кг \\
+\texttt{calcium} & Кальций & Макроэлементы & г/кг \\
+\texttt{phosphorus} & Фосфор & Макроэлементы & г/кг \\
+\texttt{magnesium} & Магний & Макроэлементы & г/кг \\
+\texttt{potassium} & Калий & Макроэлементы & г/кг \\
+\texttt{sodium} & Натрий & Макроэлементы & г/кг \\
+\texttt{sulfur} & Сера & Макроэлементы & г/кг \\
+\texttt{iron} & Железо & Микроэлементы & мг/кг \\
+\texttt{copper} & Медь & Микроэлементы & мг/кг \\
+\texttt{zinc} & Цинк & Микроэлементы & мг/кг \\
+\texttt{manganese} & Марганец & Микроэлементы & мг/кг \\
+\texttt{cobalt} & Кобальт & Микроэлементы & мг/кг \\
+\texttt{iodine} & Йод & Микроэлементы & мг/кг \\
+\texttt{carotene} & Каротин & Витамины & мг/кг \\
+\texttt{vit\_d3} & Витамин D3 & Витамины & МЕ/кг \\
+\texttt{vit\_e} & Витамин E & Витамины & мг/кг \\
+\texttt{selenium} & Селен & Микроэлементы & мг/кг \\
+\texttt{ca\_p\_ratio} & Отношение Ca:P & Соотношения & ед. \\
+\end{longtable}
+
+\section*{Таблица S8. Структурная матрица кормов}
+\begin{table}[H]
+\centering
+\caption{Ограничения матрицы кормов (доля в сухом веществе, \%).}\label{tab:s8_matrix}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Архетип} & \textbf{Категория} & \textbf{Мин (\%)} & \textbf{Опт (\%)} & \textbf{Макс (\%)} \\
+\midrule
+КРС (молочный) & Грубые & 35 & 45 & 65 \\
+& Концентраты & 30 & 40 & 60 \\
+& Сочные & 5 & 15 & 35 \\
+& Минеральные & 0{,}5 & 1{,}5 & 3 \\
+Свиньи (откорм) & Грубые & 0 & 0 & 5 \\
+& Концентраты & 90 & 95 & 100 \\
+& Минеральные & 0{,}5 & 2 & 3 \\
+Птица (бройлер) & Концентраты & 95 & 98 & 100 \\
+& Минеральные & 1 & 2 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Таблица S9. Состав нормализованной кормовой базы}
+\begin{table}[H]
+\centering
+\caption{Состав нормализованной кормовой базы по верхнеуровневым категориям.}\label{tab:s9_db}
+\begin{tabular}{lc}
+\toprule
+\textbf{Категория} & \textbf{Количество позиций} \\
+\midrule
+Грубые корма (\texttt{rough\_feeds}) & 1283 \\
+Сочные корма (\texttt{succulent\_feeds}) & 436 \\
+Зеленые корма (\texttt{green\_feeds}) & 411 \\
+Концентрированные корма (\texttt{concentrated\_feeds}) & 301 \\
+Смешанные и рецептурные корма (\texttt{mixed\_feeds}) & 205 \\
+Корма животного происхождения (\texttt{animal\_feeds}) & 29 \\
+Побочные продукты переработки (\texttt{industrial\_byproducts}) & 28 \\
+Минеральные добавки (\texttt{mineral\_supplements}) & 26 \\
+Источники небелкового азота (\texttt{nitrogen\_compounds}) & 4 \\
+\midrule
+\textbf{Всего в нормализованном экспорте} & \textbf{2723} \\
+\textbf{Benchmark-ready каталог, использованный в эксперименте} & \textbf{1342} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

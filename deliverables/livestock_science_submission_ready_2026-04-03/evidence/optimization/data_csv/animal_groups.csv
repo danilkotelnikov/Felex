@@ -1,0 +1,10 @@
+id,species,production_type,name_ru,name_en,description,created_at
+cattle_dairy_dry_early,cattle,dairy,Сухостойные (1-25 дн.),Dry early (1-25 d),,2026-03-15 18:37:00
+cattle_dairy_early_lact,cattle,dairy,Ранняя лактация (60-150 дн.),Early lactation (60-150 d),,2026-03-15 18:37:00
+cattle_dairy_fresh,cattle,dairy,Раздой (0-60 дн. лактации),Fresh (0-60 d lactation),,2026-03-15 18:37:00
+poultry_broiler_finisher,poultry,broiler,Бройлер финишер (26-42 дн.),Broiler finisher (26-42 d),,2026-03-15 18:37:00
+poultry_broiler_starter,poultry,broiler,Бройлер стартер (0-10 дн.),Broiler starter (0-10 d),,2026-03-15 18:37:00
+poultry_layer_peak,poultry,layer,"Несушки, пик (до 40 нед.)","Layers, peak (to 40 wk)",,2026-03-15 18:37:00
+swine_finisher,swine,fattening,Откорм (120-170 дн.),Finisher (120-170 d),,2026-03-15 18:37:00
+swine_piglet_nursery,swine,fattening,Поросята-отъёмыши (28-70 дн.),Nursery piglets (28-70 d),,2026-03-15 18:37:00
+swine_sow_lactating,swine,breeding,Подсосные свиноматки,Lactating sows,,2026-03-15 18:37:00

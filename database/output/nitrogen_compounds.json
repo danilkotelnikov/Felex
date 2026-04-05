@@ -1,0 +1,71 @@
+{
+  "category_id": "nitrogen_compounds",
+  "count": 4,
+  "feeds": [
+    {
+      "id": "n2594",
+      "name": {
+        "ru": "Карбамид (мочевина)",
+        "en": "Карбамид (мочевина)"
+      },
+      "category_id": "nitrogen_compounds",
+      "subcategory": {
+        "ru": "Карбамид",
+        "en": "Карбамид"
+      },
+      "nutrition": {},
+      "source_url": "https://vidkormov.narod.ru/card/n2594.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2595",
+      "name": {
+        "ru": "Бикарбонат аммония",
+        "en": "Бикарбонат аммония"
+      },
+      "category_id": "nitrogen_compounds",
+      "subcategory": {
+        "ru": "Аммонийные соли",
+        "en": "Аммонийные соли"
+      },
+      "nutrition": {},
+      "source_url": "https://vidkormov.narod.ru/card/n2595.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2596",
+      "name": {
+        "ru": "Аммиачная вода",
+        "en": "Аммиачная вода"
+      },
+      "category_id": "nitrogen_compounds",
+      "subcategory": {
+        "ru": "Аммонийные соли",
+        "en": "Аммонийные соли"
+      },
+      "nutrition": {},
+      "source_url": "https://vidkormov.narod.ru/card/n2596.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n2597",
+      "name": {
+        "ru": "Сульфат аммония",
+        "en": "Сульфат аммония"
+      },
+      "category_id": "nitrogen_compounds",
+      "subcategory": {
+        "ru": "Аммонийные соли",
+        "en": "Аммонийные соли"
+      },
+      "nutrition": {
+        "sulfur": {
+          "value": 259.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n2597.html",
+      "parse_errors": []
+    }
+  ]
+}

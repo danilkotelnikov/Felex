@@ -1,0 +1,37 @@
+flowchart TB
+  classDef appLayer fill:#EBF5FB,stroke:#2980B9,stroke-width:2px,color:#2C3E50
+  classDef coreLayer fill:#EAFAF1,stroke:#27AE60,stroke-width:2px,color:#1E8449
+  classDef dataLayer fill:#FDEDEC,stroke:#C0392B,stroke-width:2px,color:#922B21
+  classDef agentLayer fill:#FEF9E7,stroke:#F39C12,stroke-width:2px,color:#B9770E
+
+  subgraph Client ["Tauri Desktop Application"]
+    direction TB
+    UI["React 18 + TypeScript<br>(Zustand State Management)"]:::appLayer
+  end
+
+  subgraph Core ["Rust Optimization Backend"]
+    direction TB
+    API["Axum HTTP API"]:::coreLayer
+    OPT["Diet Engine<br>(good_lp, auto-populate)"]:::coreLayer
+    DB_Access["SQLite Connector<br>(rusqlite)"]:::coreLayer
+  end
+
+  subgraph DataLayer ["Local Persistence"]
+    direction TB
+    DB[("SQLite Database<br>(Norms & Configs)")]:::dataLayer
+    JSON[("Feed Artifacts<br>(JSON)")]:::dataLayer
+  end
+  
+  subgraph AgentLayer ["Local AI Integration"]
+    direction TB
+    AGENT["Ollama API Interface"]:::agentLayer
+    LLM["Qwen 3.5 4B<br>(Agentic Evaluator)"]:::agentLayer
+  end
+
+  UI <==>|"JSON / REST"| API
+  API <==>|"Linear Programming"| OPT
+  API <==>|"SQL Queries"| DB_Access
+  DB_Access <==>|"I/O"| DB
+  API -.->|"File I/O"| JSON
+  API <==>|"Prompt / HTTP"| AGENT
+  AGENT <==>|"Local inference"| LLM

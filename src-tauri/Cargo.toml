@@ -1,0 +1,33 @@
+[package]
+name = "felex-tauri"
+version = "1.0.1"
+description = "Felex - Animal Feed Ration Calculator"
+authors = ["Claude Code"]
+license = "MIT"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Include the main felex library
+felex = { path = ".." }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+chrono = { version = "0.4", features = ["serde"] }
+printpdf = "0.7"
+rust_xlsxwriter = "0.68"
+
+[profile.release]
+panic = "abort"
+codegen-units = 4
+lto = "thin"
+opt-level = "s"
+strip = true

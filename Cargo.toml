@@ -1,0 +1,95 @@
+[package]
+name = "felex"
+version = "1.1.0"
+edition = "2021"
+description = "Animal Feed Ration Calculation System"
+authors = ["Claude Code (Anthropic)"]
+license = "MIT"
+
+[lib]
+name = "felex"
+path = "src/lib.rs"
+
+[[bin]]
+name = "felex-server"
+path = "src/main.rs"
+
+[[bin]]
+name = "migrate"
+path = "src/bin/migrate.rs"
+
+[[bin]]
+name = "import-feeds"
+path = "src/bin/import_feeds.rs"
+
+[dependencies]
+# Web framework
+axum = { version = "0.7", features = ["macros"] }
+tokio = { version = "1", features = ["full"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Database
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+# LP optimization - using minilp (pure Rust, no external dependencies)
+good_lp = { version = "1.7", default-features = false, features = ["minilp"] }
+
+# HTML parsing (cap.ru + web)
+scraper = "0.19"
+reqwest = { version = "0.12", features = ["blocking", "cookies", "json", "stream"] }
+tokio-retry = "0.3"
+url = "2"
+
+# Reports
+printpdf = "0.7"
+rust_xlsxwriter = "0.68"
+
+# Logging & tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Configuration
+config = "0.14"
+
+# Error handling
+anyhow = "1"
+thiserror = "1"
+
+# Caching
+lru = "0.12"
+
+# Filesystem / directories
+dirs = "5"
+
+# Utilities
+num_cpus = "1"
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+async-trait = "0.1"
+futures = "0.3"
+
+# Agent / LLM support
+tokio-stream = "0.1"
+async-channel = "2"
+parking_lot = "0.12"
+regex = "1"
+encoding_rs = "0.8"
+
+# SSE for streaming
+axum-extra = { version = "0.9", features = ["typed-header"] }
+tokio-util = { version = "0.7", features = ["io"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "abort"

@@ -1,0 +1,343 @@
+{
+  "generated_at_utc": "2026-04-03T06:05:41.312351300+00:00",
+  "benchmark_database": ".claude/benchmarks/results/benchmark_catalog.db",
+  "source_benchmark_results": ".claude/benchmarks/results/benchmark_results.json",
+  "requested_backend": "ollama",
+  "model_name": "qwen3.5:4b",
+  "requested_context_size": 4096,
+  "web_enabled": false,
+  "ration_tasks": [
+    {
+      "case_id": "cattle_dairy_fresh",
+      "species": "cattle",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "energy",
+        "protein",
+        "digestible protein"
+      ],
+      "predicted_limiting_factors": [],
+      "gold_recommendations": [
+        "Зерно сои",
+        "Рецепты комбикормов -стартеров для телят До 6 мес. возраста К 62-2-89",
+        "Мука кровяная , 60-70% протеина"
+      ],
+      "predicted_recommendations": [],
+      "limiting_recall_at_3": 0.0,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": false,
+      "response_text": "# Ration Analysis for Fresh Dairy Cows\n\n## Current Ration Summary\n\n| Nutrient | Current Amount | Requirement | Status |\n|----------|---------------|-------------|--------|\n| Energy (OE) | 29.65 MJ/day | 13-16 MJ NE | **Insufficient** |\n| Crude Protein | 347.74 g/day | 280-320 g | **Adequate** |\n| Calcium | 30.08 g/day | 150-200 g | **Severely Deficient** |\n| Phosphorus | 10.62 g/day | 80-100 g | **Severely Deficient** |\n\n## Limiting Factors\n\n1. **Calcium** - Critical deficiency for fresh cows, risk of hypocalcemia (milk fever)\n2. **Phosphorus** - Severe deficiency, affects bone health and lactation\n3. **Energy** - Insufficient energy for milk production\n\n## Recommended Feeds\n\n| Feed | Feed ID | Rationale |\n|------|---------|-----------|\n| **Костная мука** | 456 | High calcium source (1200+ g/kg) |\n| **Фосфогит** | 487 | High phosphorus (180-200 g/kg) |\n| **Дробленая ячменная** | 1045 | Energy-dense grain supplement |\n\n## Implementation Notes\n\n**Calcium Supplement:**\n- Add 1-1.5 kg/day of bone meal to reach target calcium levels\n- Bone meal provides ~1200 g/kg Ca, making it highly efficient\n\n**Phosphorus Supplement:**\n- Add 0.5-1 kg/day of phosphogit (supercal)\n- Phosphogit provides ~180 g/kg P\n\n**Energy Consideration:**\n- Current energy intake is very low for lactating cows\n- Consider adding grain concentrates to increase energy density\n\n## Warnings\n\n- **Acidosis Risk:** Monitor rumen pH if adding too much grain\n- **Mineral Balance:** Ensure Ca:P ratio remains ~2:1\n- **Fresh Cow Transition:** Fresh cows need immediate calcium supplementation to prevent milk fever\n\n---\n\n*Note: This analysis is based on the incomplete ration provided. A complete ration should include roughage, silage, and appropriate mineral premixes.*",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "cattle_beef_700",
+      "species": "cattle",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "protein",
+        "digestible protein",
+        "calcium"
+      ],
+      "predicted_limiting_factors": [
+        "energy",
+        "phosphorus",
+        "crude protein"
+      ],
+      "gold_recommendations": [
+        "Зерно сои",
+        "Мука кровяная , 60-70% протеина",
+        "Моноаммонийфосфат"
+      ],
+      "predicted_recommendations": [
+        "Концентраты зерновые",
+        "Добавки фосфора",
+        "Продукты зерновые"
+      ],
+      "limiting_recall_at_3": 0.3333333333333333,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": false,
+      "response_text": "```markdown\n{\"limiting_factors\":[\"energy\",\"phosphorus\",\"crude protein\"],\"recommended_feeds\":[\"Концентраты зерновые\",\"Добавки фосфора\",\"Продукты зерновые\"]}\n```\n\n### Analysis of Beef Cattle Ration (700 kg)\n\n**Current Nutrient Status:**\n| Nutrient | Current | Deficiency |\n|----------|---------|------------|\n| Energy (OE) | 64.47 MJ/day | ⚠️ CRITICAL - needs 250+ MJ |\n| Crude Protein | 1062.81 g/day | ⚠️ MODERATE |\n| Phosphorus | 16.12 g/day | ⚠️ LOW |\n| Calcium | 92.68 g/day | ✓ ADEQUATE |\n\n**Limiting Factors:**\n1. **Energy** - 64.47 MJ is critically insufficient for a 700 kg beef cow (maintenance requires 250-300+ MJ)\n2. **Phosphorus** - 16.12 g/day is below recommended levels\n3. **Crude Protein** - 1062.81 g/day may be insufficient for production\n\n**Recommended Feeds:**\n- **Концентраты зерновые** - Add 5-10 kg/day to boost energy density\n- **Добавки фосфора** - Supplement to reach 20-25 g/day\n- **Продукты зерновые** - High-energy grains to address energy gap\n\n**Action Required:**\n- Add energy-dense concentrates to reach 200+ MJ/day\n- Supplement phosphorus to meet minimum requirements\n- Monitor protein balance for production goals",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "swine_grower",
+      "species": "swine",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "energy",
+        "calcium",
+        "nutrient"
+      ],
+      "predicted_limiting_factors": [
+        "energy",
+        "protein",
+        "minerals"
+      ],
+      "gold_recommendations": [
+        "Рецепты полнорационных комбикормов для поросят до 43 дней ПК50,51-8-89",
+        "Травертин",
+        "Рецепты белково-витаминно-минеральных добавок для растущих поросят и откорма свиней Растущие поросята БВД 52-1 - 89"
+      ],
+      "predicted_recommendations": [
+        "Дрожжи гидролизные сухие",
+        "Кукуруза белая",
+        "Силос люцерновый"
+      ],
+      "limiting_recall_at_3": 0.3333333333333333,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": true,
+      "response_text": "```json\n{\n\"limiting_factors\": [\n\"energy\",\n\"protein\",\n\"minerals\"\n],\n\"recommended_feeds\": [\n\"Дрожжи гидролизные сухие\",\n\"Кукуруза белая\",\n\"Силос люцерновый\"\n]\n}\n```",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "swine_finisher",
+      "species": "swine",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "lysine",
+        "methionine+cystine",
+        "calcium"
+      ],
+      "predicted_limiting_factors": [
+        "energy",
+        "protein"
+      ],
+      "gold_recommendations": [
+        "Мука кровяная , 60-70% протеина",
+        "Моноаммонийфосфат",
+        "Рецепты полнорационных комбикормов для поросят до 43 дней ПК50,51-8-89"
+      ],
+      "predicted_recommendations": [
+        "Кукуруза белая",
+        "Бобы кормовые",
+        "Горох"
+      ],
+      "limiting_recall_at_3": 0.0,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": true,
+      "response_text": "```json\n{\n\"limiting_factors\": [\"energy\", \"protein\"],\n\"recommended_feeds\": [\"Кукуруза белая\", \"Бобы кормовые\", \"Горох\"]\n}\n```",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "poultry_broiler_starter",
+      "species": "poultry",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "calcium",
+        "phosphorus",
+        "nutrient"
+      ],
+      "predicted_limiting_factors": [
+        "energy",
+        "protein",
+        "lysine"
+      ],
+      "gold_recommendations": [
+        "Травертин",
+        "Моноаммонийфосфат",
+        "Лапки еловые измельченные"
+      ],
+      "predicted_recommendations": [
+        "Зерно кукурузы",
+        "Кукуруза с початками",
+        "Дрожжи"
+      ],
+      "limiting_recall_at_3": 0.0,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": true,
+      "response_text": "```json\n{\"limiting_factors\":[\"energy\",\"protein\",\"lysine\"],\"recommended_feeds\":[\"Зерно кукурузы\",\"Кукуруза с початками\",\"Дрожжи\"]}\n```",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "poultry_layer_peak",
+      "species": "poultry",
+      "prompt_feed_count": 2,
+      "gold_limiting_factors": [
+        "calcium",
+        "phosphorus",
+        "nutrient"
+      ],
+      "predicted_limiting_factors": [
+        "energy",
+        "protein",
+        "calcium"
+      ],
+      "gold_recommendations": [
+        "Травертин",
+        "Моноаммонийфосфат",
+        "Зерно ржи озимой"
+      ],
+      "predicted_recommendations": [
+        "Мука мясная",
+        "Мука кровяная , 60-70% протеина",
+        "Кальциевая селитра"
+      ],
+      "limiting_recall_at_3": 0.3333333333333333,
+      "recommendation_overlap_at_3": false,
+      "recommendation_grounded_at_3": true,
+      "response_text": "```json\n{\n  \"limiting_factors\": [\"energy\", \"protein\", \"calcium\"],\n  \"recommended_feeds\": [\"Мука мясная\", \"Мука кровяная , 60-70% протеина\", \"Кальциевая селитра\"]\n}\n```\n\n## Analysis of Incomplete Ration\n\n**Current Ration Status:** The ration is severely deficient for laying hens.\n\n| Metric | Current | Requirement | Gap |\n|--------|---------|-------------|-----|\n| Total diet | 0.08 kg/day | 2.0-2.5 kg/day | - |\n| Crude protein | 13.01 g/day | 140-160 g/day | - |\n| Calcium | 0.15 g/day | 30-40 g/day | - |\n| Energy | 0.72 MJ/day | 280-320 kcal | - |\n\n### Limiting Factors:\n1. **Energy** - Critical for egg production and maintenance\n2. **Protein** - Insufficient for optimal egg quality and production\n3. **Calcium** - Severe deficiency will impact eggshell quality\n\n### Recommended Feeds:\n- **Мука мясная** (ID: 18) - High protein animal feed (561 g CP/kg)\n- **Мука кровяная , 60-70% протеина** (ID: 20) - Premium protein source (675 g CP/kg)\n- **Кальциевая селитра** - Calcium supplement for eggshell formation\n\n**Note:** The current ration is only 0.08 kg/day - this needs to be increased significantly to meet laying hen requirements. Consider adding energy sources like corn grain and adequate calcium sources.\n\nSources: local Felex feed library",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    }
+  ],
+  "lookup_tasks": [
+    {
+      "case_id": "cattle_dairy_fresh",
+      "feed_name": "Зерно сои",
+      "gold_category": "grain",
+      "predicted_category": "grain",
+      "correct": true,
+      "response_text": "```json\n{\"category\":\"grain\"}\n```\n\nSources: local Felex feed library (Feed ID: 1151)",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "cattle_beef_700",
+      "feed_name": "Зерно сои",
+      "gold_category": "grain",
+      "predicted_category": "grain",
+      "correct": true,
+      "response_text": "```json\n{\"category\":\"grain\"}\n```",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "swine_grower",
+      "feed_name": "Рецепты полнорационных комбикормов для поросят до 43 дней ПК50,51-8-89",
+      "gold_category": "concentrate",
+      "predicted_category": "",
+      "correct": false,
+      "response_text": "# Feed Lookup Result\n\nThe feed **\"Рецепты полнорационных комбикормов для поросят до 43 дней ПК50,51-8-89\"** was **not found** in the local Felex feed library.\n\n## Available Similar Items\n\nThe search returned several premixes for piglets, but none match the specific feed composition you requested:\n\n| ID | Feed | Category |\n| --- | --- | --- |\n| 1280 | Перемиксы на основе саропелей для свиней Для поросят до 4-мес. возраста С 1-2 | Premixes |\n| 1281 | Перемиксы на основе саропелей для свиней Для поросят до 4-мес. возраста С 1-4 | Premixes |\n| 1301 | Нормы ввода БАВ в премиксы для свиней Поросята до 4-мес. возраста П 51-1 | Premixes |\n\n## Recommendation\n\nThe feed name you provided appears to be a **Russian feed formulation standard** (likely GOST or similar) rather than a commercial feed product in the local database. \n\n### To proceed, you can:\n1. **Specify individual ingredients** from the local feed library to calculate a complete ration\n2. **Search for specific feed categories** (e.g., grain, concentrate, premix)\n3. **Provide ingredient amounts** for nutrient calculation\n\nWould you like me to help you formulate a complete piglet ration using feeds from the local library?",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "swine_finisher",
+      "feed_name": "Мука кровяная , 60-70% протеина",
+      "gold_category": "animal_origin",
+      "predicted_category": "animal_origin",
+      "correct": true,
+      "response_text": "```json\n{\n  \"category\": \"animal_origin\"\n}\n```",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "poultry_broiler_starter",
+      "feed_name": "Травертин",
+      "gold_category": "mineral",
+      "predicted_category": "",
+      "correct": false,
+      "response_text": "# Feed Lookup Result\n\nThe feed **\"Травертин\" (Travertine)** was **not found** in the local Felex feed library.\n\n**Issue:** This mineral feed (likely calcium carbonate source) is not available in the current database of 500 feeds.\n\n**Recommendation:** If you need to include travertine in your ration formulation, you may need to:\n1. Add it manually with estimated nutrient values (typically ~90-95% calcium carbonate, CP <1%)\n2. Use an alternative calcium source that exists in the library:\n   - **Костная мука** (Bone meal) - Good calcium source\n   - **Известь** (Limestone) - Common calcium supplement\n   - **Мел** (Lime) - Alternative calcium source\n\n**Note:** Since this feed is not in the local database, I cannot provide the canonical category code you requested. Mineral feeds typically fall under the **`mineral`** category, but this would need verification against your specific product composition.\n\nWould you like me to:\n- Search for alternative calcium sources in the library?\n- Help formulate a ration with estimated mineral values for travertine?\n- Look up a different feed that is available?",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    },
+    {
+      "case_id": "poultry_layer_peak",
+      "feed_name": "Травертин",
+      "gold_category": "mineral",
+      "predicted_category": "",
+      "correct": false,
+      "response_text": "# Feed Lookup Result\n\n**Feed:** Травертин (Travertine)\n\n**Status:** ❌ Not found in local Felex feed library\n\n## What is Травертин?\n\nТравертин (Travertine) is a common feed ingredient in Russia, typically a calcium carbonate-based supplement. It's most often used to provide:\n\n| Nutrient | Typical Value |\n|----------|---------------|\n| **Calcium (Ca)** | 30-35% |\n| **Phosphorus (P)** | 15-20% |\n| **Crude Protein** | 5-10% |\n| **Category** | Mineral supplement |\n\n## Recommended Alternatives in Your Library\n\nIf you need a mineral supplement, consider these available options:\n\n| Feed ID | Feed Name | Category | Price RUB/t |\n|---------|-----------|----------|-------------|\n| 1 | Кальциевая селитра | Mineral | ~20000 |\n| 2 | Фосфат кальция | Mineral | ~18000 |\n| 3 | Минеральные добавки | Mineral | ~25000 |\n\n## Usage Recommendation\n\n| Animal Type | Recommended Amount |\n|-------------|-------------------|\n| Dairy cows | 100-200 g/day |\n| Beef cattle | 150-300 g/day |\n| Poultry | 10-20 g/day |\n\n**⚠️ Warning:** Travertine should not replace complete mineral premixes - it's best used as a supplement to ensure balanced Ca:P ratio (2:1 recommended).\n\n---\n\n**Note:** Since this feed is not in your local library, I recommend adding it manually or using the mineral supplements already available in your Felex database for now.",
+      "generation_report": {
+        "requested_model": "qwen3.5:4b",
+        "effective_model": "qwen3.5:4b",
+        "requested_context_size": 4096,
+        "effective_context_size": 4096,
+        "model_fallback_applied": false,
+        "context_fallback_applied": false,
+        "continuation_attempts": 0
+      }
+    }
+  ],
+  "summary": {
+    "ration_task_count": 6,
+    "mean_limiting_recall_at_3": 0.16666666666666666,
+    "recommendation_overlap_rate_at_3": 0.0,
+    "recommendation_grounded_rate_at_3": 0.6666666666666666,
+    "lookup_task_count": 6,
+    "lookup_accuracy": 0.5,
+    "overall_applicability_score": 34.166666666666664
+  }
+}

@@ -1,0 +1,73 @@
+/* Felex Design Tokens - VS Code Style */
+
+:root {
+  /* === LIGHT THEME === */
+  --bg-base:          #ffffff;
+  --bg-surface:       #f5f5f5;
+  --bg-elevated:      #fafafa;
+  --bg-sidebar:       #f0f0f0;
+  --bg-hover:         #e8e8e8;
+  --bg-active:        #dde6d5;
+
+  --text-primary:     #1a1a1a;
+  --text-secondary:   #6b6b6b;
+  --text-disabled:    #a0a0a0;
+  --text-inverse:     #ffffff;
+
+  --border:           #d4d4d4;
+  --border-focus:     #4a7c5f;
+
+  --accent:           #4a7c5f;
+  --accent-hover:     #3d6b51;
+  --accent-subtle:    #e8f2ec;
+
+  --status-ok:        #4a7c5f;
+  --status-ok-bg:     #e8f2ec;
+  --status-warn:      #b5863a;
+  --status-warn-bg:   #fef3dd;
+  --status-error:     #c0392b;
+  --status-error-bg:  #fdecea;
+  --status-info:      #2980b9;
+  --status-info-bg:   #e8f4fd;
+
+  --shadow-sm:        0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md:        0 4px 12px rgba(0,0,0,0.10);
+
+  --radius-sm:        3px;
+  --radius-md:        6px;
+  --radius-lg:        10px;
+}
+
+.dark, [data-theme="dark"] {
+  /* === DARK THEME === */
+  --bg-base:          #1e1e1e;
+  --bg-surface:       #252526;
+  --bg-elevated:      #2d2d30;
+  --bg-sidebar:       #252526;
+  --bg-hover:         #2a2d2e;
+  --bg-active:        #37423d;
+
+  --text-primary:     #cccccc;
+  --text-secondary:   #858585;
+  --text-disabled:    #505050;
+  --text-inverse:     #1e1e1e;
+
+  --border:           #3e3e42;
+  --border-focus:     #6a9f7a;
+
+  --accent:           #6a9f7a;
+  --accent-hover:     #7db88b;
+  --accent-subtle:    #2a3b2f;
+
+  --status-ok:        #6a9f7a;
+  --status-ok-bg:     #1e2d22;
+  --status-warn:      #d4a553;
+  --status-warn-bg:   #2d2415;
+  --status-error:     #e06c75;
+  --status-error-bg:  #2d1a1c;
+  --status-info:      #61afef;
+  --status-info-bg:   #152535;
+
+  --shadow-sm:        0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md:        0 4px 12px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,263 @@
+{
+  "scenarios": {
+    "cattle_dairy": [
+      {
+        "id": "cattle_dairy_fresh",
+        "label": "Fresh dairy cows",
+        "stage": "0-30 DIM",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_early_lact",
+        "label": "Early-lactation dairy cows",
+        "stage": "30-100 DIM",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_mid_lact",
+        "label": "Mid-lactation dairy cows",
+        "stage": "100-200 DIM",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_late_lact",
+        "label": "Late-lactation dairy cows",
+        "stage": "200-305 DIM",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_dry_early",
+        "label": "Dry cows, early dry period",
+        "stage": "60 days pre-calving",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_dry_late",
+        "label": "Dry cows, late dry period",
+        "stage": "21 days pre-calving",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_heifer_6_12",
+        "label": "Dairy heifers, 6-12 months",
+        "stage": "Growing",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_heifer_12_18",
+        "label": "Dairy heifers, 12-18 months",
+        "stage": "Pre-breeding",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_heifer_18_24",
+        "label": "Dairy heifers, 18-24 months",
+        "stage": "Breeding/gestation",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_calf_pre",
+        "label": "Pre-weaned calves",
+        "stage": "0-2 months",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_calf_post",
+        "label": "Post-weaned calves",
+        "stage": "2-6 months",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_high_prod",
+        "label": "High-production cows",
+        "stage": "Peak",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_low_prod",
+        "label": "Low-production cows",
+        "stage": "Late",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_dairy_organic",
+        "label": "Organic dairy",
+        "stage": "Mixed",
+        "species": "cattle"
+      }
+    ],
+    "cattle_beef": [
+      {
+        "id": "cattle_beef_calf",
+        "label": "Beef calves",
+        "weight": "200-250 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_stocker",
+        "label": "Beef stockers",
+        "weight": "250-400 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_finisher",
+        "label": "Beef finishers",
+        "weight": "400-600 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_500",
+        "label": "Beef cattle 500 kg",
+        "weight": "500 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_700",
+        "label": "Beef cattle 700 kg",
+        "weight": "700 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_900",
+        "label": "Beef cattle 900 kg",
+        "weight": "900 kg",
+        "species": "cattle"
+      },
+      {
+        "id": "cattle_beef_1200",
+        "label": "Beef cattle 1200 kg",
+        "weight": "1200 kg",
+        "species": "cattle"
+      }
+    ],
+    "swine": [
+      {
+        "id": "swine_piglet_nursery",
+        "label": "Nursery piglets",
+        "weight": "7-25 kg",
+        "species": "swine"
+      },
+      {
+        "id": "swine_grower",
+        "label": "Grower pigs",
+        "weight": "25-60 kg",
+        "species": "swine"
+      },
+      {
+        "id": "swine_finisher",
+        "label": "Finisher pigs",
+        "weight": "60-120 kg",
+        "species": "swine"
+      },
+      {
+        "id": "swine_sow_gestating",
+        "label": "Gestating sows",
+        "weight": "Adult",
+        "species": "swine"
+      },
+      {
+        "id": "swine_sow_lactating",
+        "label": "Lactating sows",
+        "weight": "Adult",
+        "species": "swine"
+      }
+    ],
+    "poultry": [
+      {
+        "id": "poultry_broiler_starter",
+        "label": "Broiler starter",
+        "stage": "0-10 days",
+        "species": "poultry"
+      },
+      {
+        "id": "poultry_broiler_grower",
+        "label": "Broiler grower",
+        "stage": "11-24 days",
+        "species": "poultry"
+      },
+      {
+        "id": "poultry_broiler_finisher",
+        "label": "Broiler finisher",
+        "stage": "25+ days",
+        "species": "poultry"
+      },
+      {
+        "id": "poultry_layer_peak",
+        "label": "Laying hens",
+        "stage": "Peak",
+        "species": "poultry"
+      }
+    ],
+    "stress": [
+      {
+        "id": "stress_limited_5",
+        "label": "Limited library (5 feeds)",
+        "type": "constraint"
+      },
+      {
+        "id": "stress_limited_10",
+        "label": "Limited library (10 feeds)",
+        "type": "constraint"
+      },
+      {
+        "id": "stress_no_price",
+        "label": "No price data",
+        "type": "economic"
+      },
+      {
+        "id": "stress_high_cost",
+        "label": "High-cost feeds (2-3×)",
+        "type": "economic"
+      },
+      {
+        "id": "stress_tight_energy",
+        "label": "Tight energy tolerance (±5%)",
+        "type": "constraint"
+      },
+      {
+        "id": "stress_tight_protein",
+        "label": "Tight protein tolerance (±5%)",
+        "type": "constraint"
+      },
+      {
+        "id": "stress_conflicting",
+        "label": "Conflicting constraints",
+        "type": "infeasibility"
+      },
+      {
+        "id": "stress_missing_ca",
+        "label": "No calcium sources",
+        "type": "nutrient_gap"
+      },
+      {
+        "id": "stress_missing_aa",
+        "label": "No amino acid data",
+        "type": "nutrient_gap"
+      },
+      {
+        "id": "stress_max_inclusion",
+        "label": "All feeds at max inclusion",
+        "type": "palatability"
+      }
+    ]
+  },
+  "agentic_subset": [
+    "cattle_dairy_fresh",
+    "cattle_dairy_early_lact",
+    "cattle_dairy_heifer_12_18",
+    "cattle_dairy_high_prod",
+    "cattle_beef_finisher",
+    "cattle_beef_700",
+    "swine_piglet_nursery",
+    "swine_finisher",
+    "swine_sow_lactating",
+    "poultry_broiler_grower",
+    "poultry_layer_peak",
+    "stress_limited_10",
+    "stress_no_price",
+    "stress_tight_energy",
+    "stress_missing_ca"
+  ],
+  "total_scenarios": 40,
+  "agentic_count": 15
+}

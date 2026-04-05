@@ -1,0 +1,3186 @@
+{
+  "category_id": "animal_feeds",
+  "count": 29,
+  "feeds": [
+    {
+      "id": "n377",
+      "name": {
+        "ru": "Молоко коровье цельное",
+        "en": "Молоко коровье цельное"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.34,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 2.74,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 2.85,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 2.74,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 130.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 35.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 33.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 33.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 33.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 2.8,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 50.0,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 38.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 1.3,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 1.45,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.37,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 0.3,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 3.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 0.32,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.03,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.06,
+          "unit": "mg"
+        },
+        "carotene": {
+          "value": 0.9,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 1.2,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n377.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n378",
+      "name": {
+        "ru": "Молоко цельное",
+        "en": "Молоко цельное"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.3,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 2.28,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 2.88,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 2.28,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 130.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 35.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 33.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 33.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 33.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 2.8,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 48.5,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 36.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 1.3,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 1.4,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.36,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 6.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 0.3,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 3.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 0.32,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.03,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.06,
+          "unit": "mg"
+        },
+        "carotene": {
+          "value": 0.9,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 1.2,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n378.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n379",
+      "name": {
+        "ru": "Молоко регенерированное",
+        "en": "Молоко регенерированное"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 2.03,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 13.36,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 19.5,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 13.36,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 940.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 240.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 221.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 221.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 221.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 17.1,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 8.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 250.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 12.2,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 9.8,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 50.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n379.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n380",
+      "name": {
+        "ru": "Молоко цельное сухое",
+        "en": "Молоко цельное сухое"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 2.02,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 13.3,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 19.19,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 13.3,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 920.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 245.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 221.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 221.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 221.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 19.4,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 8.1,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 259.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 9.1,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 9.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 8.4,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.7,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 42.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 2.1,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 21.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 2.2,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.21,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.4,
+          "unit": "mg"
+        },
+        "carotene": {
+          "value": 6.5,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 8.7,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n380.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n381",
+      "name": {
+        "ru": "Обрат свежий",
+        "en": "Обрат свежий"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.13,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 1.31,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 1.51,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 1.31,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 90.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 37.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 35.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 35.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 35.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 2.9,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 1.4,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.39,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 0.8,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 0.9,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 4.4,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 0.21,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.07,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.11,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 0.6,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n381.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n382",
+      "name": {
+        "ru": "Обрат сухой",
+        "en": "Обрат сухой"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.25,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 12.31,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 14.84,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.31,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 920.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 370.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 338.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 338.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 338.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 29.3,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 12.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 11.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 12.9,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 3.6,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 13.0,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 47.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 2.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 1.8,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.13,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 0.4,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n382.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n383",
+      "name": {
+        "ru": "Сыворотка свежая",
+        "en": "Сыворотка свежая"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.13,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 0.94,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 1.1,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 0.94,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 59.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 9.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 9.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 9.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 0.6,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 0.4,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 1.9,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 0.5,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 0.24,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 1.15,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 0.3,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.01,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n383.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n384",
+      "name": {
+        "ru": "cыворотка сухая",
+        "en": "cыворотка сухая"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.68,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 12.04,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 13.05,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.04,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 879.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 116.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 102.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 102.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 102.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 7.4,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 0.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 11.8,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 6.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 6.6,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.7,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 13.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 5.6,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 8.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 2.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.11,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.04,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 0.2,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n384.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n385",
+      "name": {
+        "ru": "Творог обезжиренный",
+        "en": "Творог обезжиренный"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.48,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 2.92,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 3.15,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 2.92,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 350.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 280.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 252.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 265.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 252.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 21.8,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 9.0,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 17.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 2.1,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 2.2,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n385.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n386",
+      "name": {
+        "ru": "Пахта свежая",
+        "en": "Пахта свежая"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.22,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 1.48,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 1.61,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 1.48,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 95.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 38.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 34.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 35.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 34.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 0.2,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 35.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 0.7,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.5,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.1,
+          "unit": "g"
+        },
+        "zinc": {
+          "value": 3.2,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 0.2,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 0.7,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n386.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n387",
+      "name": {
+        "ru": "Пахта сухая",
+        "en": "Пахта сухая"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Молоко и продукты его переработки",
+        "en": "Молоко и продукты его переработки"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 2.0,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 13.39,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 14.8,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 13.39,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 863.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 382.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 367.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 370.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 367.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 2.6,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 11.5,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 57.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 13.6,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 9.9,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 7.4,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 4.8,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0.8,
+          "unit": "g"
+        },
+        "manganese": {
+          "value": 3.5,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 6.2,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n387.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n388",
+      "name": {
+        "ru": "Дрожжи кормовые",
+        "en": "Дрожжи кормовые"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.23,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 1.7,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 1.96,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 1.79,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 164.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 34.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 30.7,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 32.24,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 32.24,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 1.56,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.09,
+          "unit": "g"
+        },
+        "crude_fiber": {
+          "value": 8.4,
+          "unit": "g"
+        },
+        "starch": {
+          "value": 26.45,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 90.86,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 2.1,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 0.6,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 3.6,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 0.9,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.5,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 18.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 0.6,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 14.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 19.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.04,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.1,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 0.92,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n388.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n389",
+      "name": {
+        "ru": "Дрожжи пекарские",
+        "en": "Дрожжи пекарские"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.27,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 3.3,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 3.47,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 3.47,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 231.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 112.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 101.8,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 111.98,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 106.89,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 5.15,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 3.58,
+          "unit": "g"
+        },
+        "starch": {
+          "value": 55.19,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 2.52,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 5.7,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 0.51,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 2.8,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.17,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 42.97,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 2.77,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 13.63,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 7.39,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.06,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.14,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 1.29,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n389.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n390",
+      "name": {
+        "ru": "Дрожжи гидролизные сухие",
+        "en": "Дрожжи гидролизные сухие"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.16,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 11.8,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 13.57,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.39,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 902.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 458.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 407.2,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 427.56,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 427.56,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 21.07,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 14.66,
+          "unit": "g"
+        },
+        "crude_fiber": {
+          "value": 38.0,
+          "unit": "g"
+        },
+        "starch": {
+          "value": 80.97,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 278.15,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 2.1,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 8.1,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 13.6,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 9.8,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 3566.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 58.4,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 8.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 510.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 1.11,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.54,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 5.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n390.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n391",
+      "name": {
+        "ru": "Дрожжи кормовые сухие",
+        "en": "Дрожжи кормовые сухие"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.19,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 12.22,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 14.69,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.22,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 455.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 419.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 419.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 419.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 30.9,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 12.3,
+          "unit": "g"
+        },
+        "crude_fiber": {
+          "value": 2.0,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 1.4,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 3.85,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 18.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 14.9,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 1.3,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 43.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 11.9,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 84.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 28.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 1.32,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.33,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n391.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n392",
+      "name": {
+        "ru": "Дрожжи пивные (свежие)",
+        "en": "Дрожжи пивные (свежие)"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.25,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "swine": {
+            "value": 2.62,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 200.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 96.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "swine": {
+            "value": 87.0,
+            "unit": "g"
+          }
+        },
+        "crude_fiber": {
+          "value": 15.0,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 5.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 3.2,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 2.8,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n392.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n393",
+      "name": {
+        "ru": "Паприн",
+        "en": "Паприн"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Дрожжи",
+        "en": "Дрожжи"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.12,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 12.06,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 13.08,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.06,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 491.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 350.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 350.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 350.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 34.5,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 12.3,
+          "unit": "g"
+        },
+        "crude_fiber": {
+          "value": 3.0,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 76.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 4.3,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 21.5,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 8.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 7.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 43.9,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 45.3,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 43.9,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 1.8,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.55,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 5.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n393.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n394",
+      "name": {
+        "ru": "Мука мясная",
+        "en": "Мука мясная"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мясная и мясокостная мука, боенские отходы",
+        "en": "Мясная и мясокостная мука, боенские отходы"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.49,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 11.98,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 16.53,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 561.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 516.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 40.4,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 12.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 153.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 61.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 5.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 31.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.9,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 10.1,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 312.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 6.8,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 59.5,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 1.7,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.01,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.68,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 1.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n394.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n395",
+      "name": {
+        "ru": "Мука костная",
+        "en": "Мука костная"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мясная и мясокостная мука, боенские отходы",
+        "en": "Мясная и мясокостная мука, боенские отходы"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.97,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 8.7,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 8.85,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 8.7,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 178.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 146.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 155.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 146.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 6.8,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 1.7,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 157.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 229.6,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 102.5,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 5.5,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 1.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 44.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 18.7,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 285.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 8.6,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.13,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.25,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n395.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n396",
+      "name": {
+        "ru": "Мука кровяная , 60-70% протеина",
+        "en": "Мука кровяная , 60-70% протеина"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мясная и мясокостная мука, боенские отходы",
+        "en": "Мясная и мясокостная мука, боенские отходы"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.04,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 12.44,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 14.2,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 12.44,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 675.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 527.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 545.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 527.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 62.7,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 23.7,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 25.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 16.5,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 4.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.2,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 2.1,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 257.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 7.6,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 29.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 6.0,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.1,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 1.2,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n396.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n397",
+      "name": {
+        "ru": "Мука мясокостная , 50-60% протеина",
+        "en": "Мука мясокостная , 50-60% протеина"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мясная и мясокостная мука, боенские отходы",
+        "en": "Мясная и мясокостная мука, боенские отходы"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.49,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 11.98,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 16.53,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 11.98,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 561.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 516.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 535.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 516.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 40.4,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 12.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 153.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 61.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 5.8,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 31.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.9,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 1.2,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 312.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 6.8,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 59.5,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 1.7,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.01,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 0.68,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 1.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n397.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n399",
+      "name": {
+        "ru": "Мука рыбная жирная, протеина до 60 %",
+        "en": "Мука рыбная жирная, протеина до 60 %"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.31,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 13.2,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 15.07,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 9.92,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 535.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 482.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 495.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 482.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 42.8,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 22.5,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 108.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 27.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 6.9,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 18.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 1.9,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 4.2,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 74.6,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 4.8,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 97.2,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 9.9,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.1,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 15.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n399.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n398",
+      "name": {
+        "ru": "Мука мясокостная , 40-50% протеина",
+        "en": "Мука мясокостная , 40-50% протеина"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мясная и мясокостная мука, боенские отходы",
+        "en": "Мясная и мясокостная мука, боенские отходы"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.04,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 8.63,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 11.5,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 8.63,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 401.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 341.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 350.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 341.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 21.7,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 8.8,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 112.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 143.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 14.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 74.0,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 1.8,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 2.5,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 50.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 1.5,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 85.0,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 12.3,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.18,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 1.31,
+          "unit": "mg"
+        },
+        "vitamin_e": {
+          "value": 1.0,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n398.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n401",
+      "name": {
+        "ru": "Мука рыбная жирная, протеина 65-70%",
+        "en": "Мука рыбная жирная, протеина 65-70%"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.43,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 14.49,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 17.05,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 14.49,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 651.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 612.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 612.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 612.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 52.1,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 27.3,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 113.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 37.4,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 7.4,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 24.6,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 94.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 9.7,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 105.5,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 9.3,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.75,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 17.15,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n401.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n400",
+      "name": {
+        "ru": "Мука рыбная нежирная, протеина 60-65%",
+        "en": "Мука рыбная нежирная, протеина 60-65%"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.98,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 11.47,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 13.34,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 11.47,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 900.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 621.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 571.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 571.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 571.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 49.7,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 26.1,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 23.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 66.6,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 16.6,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 36.2,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 4.5,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 4.9,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 113.0,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 15.2,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 106.5,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 23.7,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 0.11,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 2.6,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 19.3,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n400.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n402",
+      "name": {
+        "ru": "Мука из криля",
+        "en": "Мука из криля"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.98,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 10.78,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 880.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 440.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 352.0,
+            "unit": "g"
+          }
+        },
+        "crude_fiber": {
+          "value": 29.0,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 132.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 28.0,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 19.0,
+          "unit": "g"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n402.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n403",
+      "name": {
+        "ru": "Рыбный фарш из непищевой рыбы",
+        "en": "Рыбный фарш из непищевой рыбы"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.69,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 5.81,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 6.8,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 5.81,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 300.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 141.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 128.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 130.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 128.0,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 6.9,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 2.3,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 120.0,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 9.9,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 4.3,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 7.9,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 0.6,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 40.0,
+          "unit": "g"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 5.72,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n403.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n404",
+      "name": {
+        "ru": "Рыба свежая непищевая",
+        "en": "Рыба свежая непищевая"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 0.36,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 4.0,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 4.5,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 4.2,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 269.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 158.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 143.0,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 148.0,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 150.15,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 12.64,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 6.64,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 48.4,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 76.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 3.23,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 4.2,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 10.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 12.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 29.86,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 96.0,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 4.04,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 4.04,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 6.0,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 78.0,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 5.13,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n404.html",
+      "parse_errors": []
+    },
+    {
+      "id": "n405",
+      "name": {
+        "ru": "Сельдь соленая высушенная",
+        "en": "Сельдь соленая высушенная"
+      },
+      "category_id": "animal_feeds",
+      "subcategory": {
+        "ru": "Мука рыбная и отходы рыбной промышленности",
+        "en": "Мука рыбная и отходы рыбной промышленности"
+      },
+      "nutrition": {
+        "feed_units": {
+          "value": 1.06,
+          "unit": ""
+        },
+        "metabolizable_energy": {
+          "cattle": {
+            "value": 11.0,
+            "unit": "MJ"
+          },
+          "swine": {
+            "value": 11.55,
+            "unit": "MJ"
+          },
+          "sheep": {
+            "value": 11.55,
+            "unit": "MJ"
+          }
+        },
+        "dry_matter": {
+          "value": 899.0,
+          "unit": "g"
+        },
+        "crude_protein": {
+          "value": 538.0,
+          "unit": "g"
+        },
+        "digestible_protein": {
+          "cattle": {
+            "value": 478.9,
+            "unit": "g"
+          },
+          "swine": {
+            "value": 526.79,
+            "unit": "g"
+          },
+          "sheep": {
+            "value": 502.85,
+            "unit": "g"
+          }
+        },
+        "lysine": {
+          "value": 43.04,
+          "unit": "g"
+        },
+        "methionine_cystine": {
+          "value": 22.6,
+          "unit": "g"
+        },
+        "starch": {
+          "value": 53.82,
+          "unit": "g"
+        },
+        "sugars": {
+          "value": 184.9,
+          "unit": "g"
+        },
+        "crude_fat": {
+          "value": 37.9,
+          "unit": "g"
+        },
+        "calcium": {
+          "value": 45.0,
+          "unit": "g"
+        },
+        "potassium": {
+          "value": 10.79,
+          "unit": "g"
+        },
+        "phosphorus": {
+          "value": 6.4,
+          "unit": "g"
+        },
+        "magnesium": {
+          "value": 34.0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 41.0,
+          "unit": "g"
+        },
+        "iron": {
+          "value": 99.79,
+          "unit": "g"
+        },
+        "copper": {
+          "value": 32.0,
+          "unit": "mg"
+        },
+        "zinc": {
+          "value": 13.49,
+          "unit": "mg"
+        },
+        "manganese": {
+          "value": 13.49,
+          "unit": "mg"
+        },
+        "cobalt": {
+          "value": 20.0,
+          "unit": "mg"
+        },
+        "iodine": {
+          "value": 26.0,
+          "unit": "mg"
+        },
+        "vitamin_d": {
+          "value": 0.5,
+          "unit": "thousand IU"
+        },
+        "vitamin_e": {
+          "value": 17.13,
+          "unit": "mg"
+        }
+      },
+      "source_url": "https://vidkormov.narod.ru/card/n405.html",
+      "parse_errors": []
+    }
+  ]
+}

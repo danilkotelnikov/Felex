@@ -1,0 +1,684 @@
+{
+  "units": {
+    "fu": {
+      "name": {
+        "ru": "кормовые единицы",
+        "en": "feed units"
+      },
+      "type": "energy"
+    },
+    "MJ": {
+      "name": {
+        "ru": "МДж",
+        "en": "megajoules"
+      },
+      "type": "energy",
+      "conversions": {
+        "kcal": 239.006
+      }
+    },
+    "g": {
+      "name": {
+        "ru": "г",
+        "en": "grams"
+      },
+      "type": "mass",
+      "conversions": {
+        "oz": 0.035274,
+        "kg": 0.001
+      }
+    },
+    "mg": {
+      "name": {
+        "ru": "мг",
+        "en": "milligrams"
+      },
+      "type": "mass",
+      "conversions": {
+        "g": 0.001
+      }
+    },
+    "mcg": {
+      "name": {
+        "ru": "мкг",
+        "en": "micrograms"
+      },
+      "type": "mass",
+      "conversions": {
+        "mg": 0.001
+      }
+    },
+    "IU": {
+      "name": {
+        "ru": "МЕ",
+        "en": "international units"
+      },
+      "type": "biological"
+    },
+    "thousand IU": {
+      "name": {
+        "ru": "тыс. МЕ",
+        "en": "thousand international units"
+      },
+      "type": "biological",
+      "conversions": {
+        "IU": 1000
+      }
+    },
+    "million IU": {
+      "name": {
+        "ru": "млн. МЕ",
+        "en": "million international units"
+      },
+      "type": "biological",
+      "conversions": {
+        "IU": 1000000
+      }
+    },
+    "percent": {
+      "name": {
+        "ru": "%",
+        "en": "percent"
+      },
+      "type": "ratio"
+    }
+  },
+  "nutrients": {
+    "feed_units": {
+      "ru": "Кормовые единицы",
+      "en": "Feed units",
+      "group": "energy",
+      "default_unit": "fu",
+      "animal_specific": false
+    },
+    "metabolizable_energy": {
+      "ru": "Обменная энергия",
+      "en": "Metabolizable energy",
+      "group": "energy",
+      "default_unit": "MJ",
+      "animal_specific": true
+    },
+    "dry_matter": {
+      "ru": "Сухое вещество",
+      "en": "Dry matter",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "crude_protein": {
+      "ru": "Сырой протеин",
+      "en": "Crude protein",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "digestible_protein": {
+      "ru": "Переваримый протеин",
+      "en": "Digestible protein",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": true
+    },
+    "lysine": {
+      "ru": "Лизин",
+      "en": "Lysine",
+      "group": "amino_acids",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "methionine_cystine": {
+      "ru": "Метионин+цистин",
+      "en": "Methionine+Cystine",
+      "group": "amino_acids",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "crude_fiber": {
+      "ru": "Сырая клетчатка",
+      "en": "Crude fiber",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "sugars": {
+      "ru": "Сахара",
+      "en": "Sugars",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "starch": {
+      "ru": "Крахмал",
+      "en": "Starch",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "crude_fat": {
+      "ru": "Сырой жир",
+      "en": "Crude fat",
+      "group": "composition",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "calcium": {
+      "ru": "Кальций",
+      "en": "Calcium",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "phosphorus": {
+      "ru": "Фосфор",
+      "en": "Phosphorus",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "magnesium": {
+      "ru": "Магний",
+      "en": "Magnesium",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "potassium": {
+      "ru": "Калий",
+      "en": "Potassium",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "sodium": {
+      "ru": "Натрий",
+      "en": "Sodium",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "sulfur": {
+      "ru": "Сера",
+      "en": "Sulfur",
+      "group": "minerals",
+      "default_unit": "g",
+      "animal_specific": false
+    },
+    "iron": {
+      "ru": "Железо",
+      "en": "Iron",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "copper": {
+      "ru": "Медь",
+      "en": "Copper",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "zinc": {
+      "ru": "Цинк",
+      "en": "Zinc",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "manganese": {
+      "ru": "Марганец",
+      "en": "Manganese",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "cobalt": {
+      "ru": "Кобальт",
+      "en": "Cobalt",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "iodine": {
+      "ru": "Йод",
+      "en": "Iodine",
+      "group": "minerals",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "carotene": {
+      "ru": "Каротин",
+      "en": "Carotene",
+      "group": "vitamins",
+      "default_unit": "mg",
+      "animal_specific": false
+    },
+    "vitamin_d": {
+      "ru": "Витамин D",
+      "en": "Vitamin D",
+      "group": "vitamins",
+      "default_unit": "IU",
+      "animal_specific": false
+    },
+    "vitamin_e": {
+      "ru": "Витамин E",
+      "en": "Vitamin E",
+      "group": "vitamins",
+      "default_unit": "mg",
+      "animal_specific": false
+    }
+  },
+  "categories": {
+    "green_feeds": {
+      "id": "green_feeds",
+      "code": "11",
+      "ru": "Зеленые корма",
+      "en": "Green feeds",
+      "has_regions": true
+    },
+    "rough_feeds": {
+      "id": "rough_feeds",
+      "code": "12",
+      "ru": "Грубые корма",
+      "en": "Rough feeds",
+      "has_regions": true
+    },
+    "succulent_feeds": {
+      "id": "succulent_feeds",
+      "code": "13",
+      "ru": "Сочные корма",
+      "en": "Succulent feeds",
+      "has_regions": true
+    },
+    "concentrated_feeds": {
+      "id": "concentrated_feeds",
+      "code": "14",
+      "ru": "Концентрированные корма",
+      "en": "Concentrated feeds",
+      "has_regions": true
+    },
+    "industrial_byproducts": {
+      "id": "industrial_byproducts",
+      "code": "15",
+      "ru": "Отходы промышленности, пищевые",
+      "en": "Industrial and food byproducts",
+      "has_regions": false
+    },
+    "animal_feeds": {
+      "id": "animal_feeds",
+      "code": "16",
+      "ru": "Корма животного и микробного происхождения",
+      "en": "Animal and microbial feeds",
+      "has_regions": false
+    },
+    "nitrogen_compounds": {
+      "id": "nitrogen_compounds",
+      "code": "17",
+      "ru": "Небелковые азотистые соединения",
+      "en": "Non-protein nitrogen compounds",
+      "has_regions": false
+    },
+    "mineral_supplements": {
+      "id": "mineral_supplements",
+      "code": "18",
+      "ru": "Минеральные добавки",
+      "en": "Mineral supplements",
+      "has_regions": false
+    },
+    "mixed_feeds": {
+      "id": "mixed_feeds",
+      "code": "19",
+      "ru": "Комбикорма и заменители молока",
+      "en": "Mixed feeds and milk replacers",
+      "has_regions": false
+    }
+  },
+  "runtime_categories": {
+    "grain": {
+      "ru": "Зерновые",
+      "en": "Grains"
+    },
+    "concentrate": {
+      "ru": "Концентраты",
+      "en": "Concentrates"
+    },
+    "oilseed_meal": {
+      "ru": "Жмыхи и шроты",
+      "en": "Oilseed meals"
+    },
+    "protein": {
+      "ru": "Белковые корма",
+      "en": "Protein feeds"
+    },
+    "roughage": {
+      "ru": "Грубые корма",
+      "en": "Roughage"
+    },
+    "silage": {
+      "ru": "Силос и сенаж",
+      "en": "Silage and haylage"
+    },
+    "succulent": {
+      "ru": "Сочные корма",
+      "en": "Succulent feeds"
+    },
+    "animal_origin": {
+      "ru": "Корма животного происхождения",
+      "en": "Animal-origin feeds"
+    },
+    "mineral": {
+      "ru": "Минеральные добавки",
+      "en": "Mineral supplements"
+    },
+    "premix": {
+      "ru": "Премиксы",
+      "en": "Premixes"
+    },
+    "additive": {
+      "ru": "Кормовые добавки",
+      "en": "Feed additives"
+    },
+    "other": {
+      "ru": "Прочие",
+      "en": "Other"
+    }
+  },
+  "regions": {
+    "russia_avg": {
+      "id": "russia_avg",
+      "ru": "В среднем по России",
+      "en": "Russia average"
+    },
+    "northwest_north": {
+      "id": "northwest_north",
+      "ru": "Северо-Западный, Северный экономические районы",
+      "en": "Northwestern and Northern economic regions"
+    },
+    "central": {
+      "id": "central",
+      "ru": "Центральный экономический район",
+      "en": "Central economic region"
+    },
+    "volga_vyatka": {
+      "id": "volga_vyatka",
+      "ru": "Волго-Вятский экономический район",
+      "en": "Volga-Vyatka economic region"
+    },
+    "central_black_earth": {
+      "id": "central_black_earth",
+      "ru": "Центрально-черноземный экономический район",
+      "en": "Central Black Earth region"
+    },
+    "volga": {
+      "id": "volga",
+      "ru": "Поволжский экономический район",
+      "en": "Volga region"
+    },
+    "north_caucasus": {
+      "id": "north_caucasus",
+      "ru": "Северо-Кавказский экономический район",
+      "en": "North Caucasus region"
+    },
+    "urals": {
+      "id": "urals",
+      "ru": "Уральский экономический район",
+      "en": "Urals region"
+    },
+    "west_siberia": {
+      "id": "west_siberia",
+      "ru": "Западно-Сибирский экономический район",
+      "en": "West Siberian region"
+    },
+    "east_siberia": {
+      "id": "east_siberia",
+      "ru": "Восточно-Сибирский экономический район",
+      "en": "East Siberian region"
+    },
+    "far_east": {
+      "id": "far_east",
+      "ru": "Дальневосточный экономический район",
+      "en": "Far Eastern region"
+    }
+  },
+  "subcategories": {
+    "Аммонийные соли": {
+      "ru": "Аммонийные соли",
+      "en": "Аммонийные соли"
+    },
+    "Барда": {
+      "ru": "Барда",
+      "en": "Барда"
+    },
+    "Бахчевые и овощи": {
+      "ru": "Бахчевые и овощи",
+      "en": "Бахчевые и овощи"
+    },
+    "БВМД для молочного КРС": {
+      "ru": "БВМД для молочного КРС",
+      "en": "БВМД для молочного КРС"
+    },
+    "БВМД для овец": {
+      "ru": "БВМД для овец",
+      "en": "БВМД для овец"
+    },
+    "БВМД для свиней": {
+      "ru": "БВМД для свиней",
+      "en": "БВМД для свиней"
+    },
+    "Ботва": {
+      "ru": "Ботва",
+      "en": "Ботва"
+    },
+    "Веточный корм": {
+      "ru": "Веточный корм",
+      "en": "Веточный корм"
+    },
+    "Гидропонный корм": {
+      "ru": "Гидропонный корм",
+      "en": "Hydroponic feed"
+    },
+    "Дробина": {
+      "ru": "Дробина",
+      "en": "Дробина"
+    },
+    "Дрожжи": {
+      "ru": "Дрожжи",
+      "en": "Дрожжи"
+    },
+    "Другие соли": {
+      "ru": "Другие соли",
+      "en": "Другие соли"
+    },
+    "Жмыхи и шроты": {
+      "ru": "Жмыхи и шроты",
+      "en": "Жмыхи и шроты"
+    },
+    "Жом": {
+      "ru": "Жом",
+      "en": "Жом"
+    },
+    "Зерно": {
+      "ru": "Зерно",
+      "en": "Зерно"
+    },
+    "Зерновые отходы": {
+      "ru": "Зерновые отходы",
+      "en": "Зерновые отходы"
+    },
+    "ЗЦМ для других видов животных": {
+      "ru": "ЗЦМ для других видов животных",
+      "en": "ЗЦМ для других видов животных"
+    },
+    "ЗЦМ для телят": {
+      "ru": "ЗЦМ для телят",
+      "en": "ЗЦМ для телят"
+    },
+    "Кальциевые подкормки": {
+      "ru": "Кальциевые подкормки",
+      "en": "Кальциевые подкормки"
+    },
+    "Карбамид": {
+      "ru": "Карбамид",
+      "en": "Карбамид"
+    },
+    "Комбикорма для других видов животных": {
+      "ru": "Комбикорма для других видов животных",
+      "en": "Комбикорма для других видов животных"
+    },
+    "Комбикорма для молочного КРС": {
+      "ru": "Комбикорма для молочного КРС",
+      "en": "Комбикорма для молочного КРС"
+    },
+    "Комбикорма для овец": {
+      "ru": "Комбикорма для овец",
+      "en": "Комбикорма для овец"
+    },
+    "Комбикорма для птицы": {
+      "ru": "Комбикорма для птицы",
+      "en": "Комбикорма для птицы"
+    },
+    "Комбикорма для свиней": {
+      "ru": "Комбикорма для свиней",
+      "en": "Комбикорма для свиней"
+    },
+    "Корнеклубнеплоды": {
+      "ru": "Корнеклубнеплоды",
+      "en": "Корнеклубнеплоды"
+    },
+    "Корнеклубнеплоды сушенные": {
+      "ru": "Корнеклубнеплоды сушенные",
+      "en": "Корнеклубнеплоды сушенные"
+    },
+    "Мезга": {
+      "ru": "Мезга",
+      "en": "Мезга"
+    },
+    "Микроэлементы": {
+      "ru": "Микроэлементы",
+      "en": "Микроэлементы"
+    },
+    "Молоко и продукты его переработки": {
+      "ru": "Молоко и продукты его переработки",
+      "en": "Молоко и продукты его переработки"
+    },
+    "Мука рыбная и отходы рыбной промышленности": {
+      "ru": "Мука рыбная и отходы рыбной промышленности",
+      "en": "Мука рыбная и отходы рыбной промышленности"
+    },
+    "Мякина": {
+      "ru": "Мякина",
+      "en": "Мякина"
+    },
+    "Мясная и мясокостная мука, боенские отходы": {
+      "ru": "Мясная и мясокостная мука, боенские отходы",
+      "en": "Мясная и мясокостная мука, боенские отходы"
+    },
+    "Нормы ввода биологически активных веществ в премиксы для других видов животных": {
+      "ru": "Нормы ввода биологически активных веществ в премиксы для других видов животных",
+      "en": "Нормы ввода биологически активных веществ в премиксы для других видов животных"
+    },
+    "Нормы ввода биологически активных веществ в премиксы для КРС": {
+      "ru": "Нормы ввода биологически активных веществ в премиксы для КРС",
+      "en": "Нормы ввода биологически активных веществ в премиксы для КРС"
+    },
+    "Нормы ввода биологически активных веществ в премиксы для птицы": {
+      "ru": "Нормы ввода биологически активных веществ в премиксы для птицы",
+      "en": "Нормы ввода биологически активных веществ в премиксы для птицы"
+    },
+    "Нормы ввода биологически активных веществ в премиксы для свиней": {
+      "ru": "Нормы ввода биологически активных веществ в премиксы для свиней",
+      "en": "Нормы ввода биологически активных веществ в премиксы для свиней"
+    },
+    "Патока": {
+      "ru": "Патока",
+      "en": "Патока"
+    },
+    "Премиксы для других видов животных": {
+      "ru": "Премиксы для других видов животных",
+      "en": "Премиксы для других видов животных"
+    },
+    "Премиксы для КРС": {
+      "ru": "Премиксы для КРС",
+      "en": "Премиксы для КРС"
+    },
+    "Премиксы для птицы": {
+      "ru": "Премиксы для птицы",
+      "en": "Премиксы для птицы"
+    },
+    "Премиксы для свиней": {
+      "ru": "Премиксы для свиней",
+      "en": "Премиксы для свиней"
+    },
+    "Сеннаж": {
+      "ru": "Сеннаж",
+      "en": "Сеннаж"
+    },
+    "Сенная мука": {
+      "ru": "Сенная мука",
+      "en": "Сенная мука"
+    },
+    "Сено бобовое посевное": {
+      "ru": "Сено бобовое посевное",
+      "en": "Сено бобовое посевное"
+    },
+    "Сено естественных угодий": {
+      "ru": "Сено естественных угодий",
+      "en": "Сено естественных угодий"
+    },
+    "Сено посевное злаковое": {
+      "ru": "Сено посевное злаковое",
+      "en": "Сено посевное злаковое"
+    },
+    "Сено посевное мешанок": {
+      "ru": "Сено посевное мешанок",
+      "en": "Сено посевное мешанок"
+    },
+    "Силос": {
+      "ru": "Силос",
+      "en": "Силос"
+    },
+    "Солома": {
+      "ru": "Солома",
+      "en": "Солома"
+    },
+    "Трава бобовых": {
+      "ru": "Трава бобовых",
+      "en": "Legume grass"
+    },
+    "Трава естественных лугов и пастбищ": {
+      "ru": "Трава естественных лугов и пастбищ",
+      "en": "Natural meadow and pasture grass"
+    },
+    "Трава крестоцветных": {
+      "ru": "Трава крестоцветных",
+      "en": "Cruciferous grass"
+    },
+    "Трава посевных злаков": {
+      "ru": "Трава посевных злаков",
+      "en": "Seeded grain grass"
+    },
+    "Трава смешанных культур": {
+      "ru": "Трава смешанных культур",
+      "en": "Mixed culture grass"
+    },
+    "Травяная мука": {
+      "ru": "Травяная мука",
+      "en": "Травяная мука"
+    },
+    "Травяная резка искусственной сушки": {
+      "ru": "Травяная резка искусственной сушки",
+      "en": "Травяная резка искусственной сушки"
+    },
+    "Фосфорно-кальциевые подкормки": {
+      "ru": "Фосфорно-кальциевые подкормки",
+      "en": "Фосфорно-кальциевые подкормки"
+    },
+    "Хвойная мука": {
+      "ru": "Хвойная мука",
+      "en": "Хвойная мука"
+    },
+    "Шелуха, лузга, пленки": {
+      "ru": "Шелуха, лузга, пленки",
+      "en": "Шелуха, лузга, пленки"
+    }
+  }
+}

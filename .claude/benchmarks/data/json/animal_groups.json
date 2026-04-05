@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cattle_dairy_dry_early",
+    "species": "cattle",
+    "production_type": "dairy",
+    "name_ru": "Сухостойные (1-25 дн.)",
+    "name_en": "Dry early (1-25 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "cattle_dairy_early_lact",
+    "species": "cattle",
+    "production_type": "dairy",
+    "name_ru": "Ранняя лактация (60-150 дн.)",
+    "name_en": "Early lactation (60-150 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "cattle_dairy_fresh",
+    "species": "cattle",
+    "production_type": "dairy",
+    "name_ru": "Раздой (0-60 дн. лактации)",
+    "name_en": "Fresh (0-60 d lactation)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "poultry_broiler_finisher",
+    "species": "poultry",
+    "production_type": "broiler",
+    "name_ru": "Бройлер финишер (26-42 дн.)",
+    "name_en": "Broiler finisher (26-42 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "poultry_broiler_starter",
+    "species": "poultry",
+    "production_type": "broiler",
+    "name_ru": "Бройлер стартер (0-10 дн.)",
+    "name_en": "Broiler starter (0-10 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "poultry_layer_peak",
+    "species": "poultry",
+    "production_type": "layer",
+    "name_ru": "Несушки, пик (до 40 нед.)",
+    "name_en": "Layers, peak (to 40 wk)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "swine_finisher",
+    "species": "swine",
+    "production_type": "fattening",
+    "name_ru": "Откорм (120-170 дн.)",
+    "name_en": "Finisher (120-170 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "swine_piglet_nursery",
+    "species": "swine",
+    "production_type": "fattening",
+    "name_ru": "Поросята-отъёмыши (28-70 дн.)",
+    "name_en": "Nursery piglets (28-70 d)",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  },
+  {
+    "id": "swine_sow_lactating",
+    "species": "swine",
+    "production_type": "breeding",
+    "name_ru": "Подсосные свиноматки",
+    "name_en": "Lactating sows",
+    "description": null,
+    "created_at": "2026-03-15 18:37:00"
+  }
+]
